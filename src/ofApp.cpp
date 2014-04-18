@@ -20,13 +20,20 @@ void ofApp::setup() {
 	grayThreshNear.allocate(kinect.width, kinect.height);
 	grayThreshFar.allocate(kinect.width, kinect.height);
 	
-	nearThreshold = 255;
+	nearThreshold = 250;
 	farThreshold = 240;
 	
 	ofSetFrameRate(60);
 	
-	angle = 0;
-	kinect.setCameraTiltAngle(angle);
+	nearThresholdSlider.addListener(this, &ofApp::nearThresholdChanged);
+	farThresholdSlider.addListener(this, &ofApp::farThresholdChanged);
+	angleSlider.addListener(this, &ofApp::angleChanged);
+	
+	gui.setup();
+	gui.setPosition(10, 320);
+	gui.add(nearThresholdSlider.setup("near", nearThreshold, 0, 255));
+	gui.add(farThresholdSlider.setup("far", farThreshold, 0, 255));
+	gui.add(angleSlider.setup("angle", 0, -30, 30));
 }
 
 void ofApp::update() {
@@ -50,8 +57,7 @@ void ofApp::update() {
 		// also, find holes is set to true so we will get interior contours as well....
 		contourFinder.findContours(grayImage, 10, (kinect.width * kinect.height) / 2, 20, false);
 		
-		// get data from contours
-		
+		// get blob data from contours
 		vector<ofxCvBlob> blobs = contourFinder.blobs;
 		vector<ofxCvBlob>::iterator blobIt;
 		for (blobIt = blobs.begin(); blobIt != blobs.end(); blobIt++) {
@@ -70,6 +76,8 @@ void ofApp::draw() {
 	
 	grayImage.draw(830, 10, 400, 300);
 	contourFinder.draw(830, 10, 400, 300);
+	
+	gui.draw();
 }
 
 void ofApp::exit() {
@@ -83,4 +91,17 @@ void ofApp::keyPressed(int key) {
 
 void ofApp::mousePressed(int x, int y, int button) {
 
+}
+
+void ofApp::farThresholdChanged(int &threshold) {
+	this->farThreshold = threshold;
+}
+
+void ofApp::nearThresholdChanged(int &threshold) {
+	this->nearThreshold = threshold;
+}
+
+void ofApp::angleChanged(int &angle) {
+	ofLogNotice() << "setting angle to: " << angle;
+	kinect.setCameraTiltAngle(angle);
 }

@@ -3,8 +3,9 @@
 #include "ofMain.h"
 #include "ofxKinect.h"
 #include "ofxOpenCv.h"
+#include "ofxGui.h"
 
-class ofApp : public ofBaseApp{
+class ofApp : public ofBaseApp {
 	
 public:
 	void setup();
@@ -14,6 +15,10 @@ public:
 	
 	void keyPressed(int key);
 	void mousePressed(int x, int y, int button);
+	
+	void farThresholdChanged(int &threshold);
+	void nearThresholdChanged(int &threshold);
+	void angleChanged(int &angle);
 	
 	ofxKinect kinect;
 	
@@ -25,8 +30,8 @@ public:
 	
 	ofxCvContourFinder contourFinder;
 	
-	int nearThreshold;
-	int farThreshold;
+	int nearThreshold, farThreshold;
 	
-	int angle;
+	ofxPanel gui;
+	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider;
 };
