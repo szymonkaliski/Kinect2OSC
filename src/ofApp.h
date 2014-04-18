@@ -22,6 +22,7 @@ public:
 	void farThresholdChanged(int &threshold);
 	void nearThresholdChanged(int &threshold);
 	void angleChanged(int &angle);
+	void polylineSimplifyChanged(float &simplify);
 	
 	ofxKinect kinect;
 	
@@ -33,10 +34,14 @@ public:
 	
 	ofxCvContourFinder contourFinder;
 	
+	float polylineSimplfy;
+	vector<ofPolyline> blobPolylines;
+	
 	int nearThreshold, farThreshold;
 	
 	ofxPanel gui;
 	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider;
+	ofxFloatSlider simplifySlider;
 	
 	ofxOscSender oscSender;
 };

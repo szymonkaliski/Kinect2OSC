@@ -22,18 +22,21 @@ void ofApp::setup() {
 	
 	nearThreshold = 250;
 	farThreshold = 240;
+	polylineSimplfy = 4.0f;
 	
 	ofSetFrameRate(60);
 	
 	nearThresholdSlider.addListener(this, &ofApp::nearThresholdChanged);
 	farThresholdSlider.addListener(this, &ofApp::farThresholdChanged);
 	angleSlider.addListener(this, &ofApp::angleChanged);
+	simplifySlider.addListener(this, &ofApp::polylineSimplifyChanged);
 	
 	gui.setup();
 	gui.setPosition(10, 320);
 	gui.add(nearThresholdSlider.setup("near", nearThreshold, 0, 255));
 	gui.add(farThresholdSlider.setup("far", farThreshold, 0, 255));
 	gui.add(angleSlider.setup("angle", 0, -30, 30));
+	gui.add(simplifySlider.setup("simplify", polylineSimplfy, 1.0f, 20.0f));
 	gui.loadFromFile("settings.xml");
 	
 	oscSender.setup(HOST, PORT);
@@ -67,19 +70,22 @@ void ofApp::update() {
 		oscMessageCentroids.setAddress("/centroids");
 		oscMessageBoundingBoxes.setAddress("/boundingboxes");
 		
-		vector<ofxCvBlob> blobs = contourFinder.blobs;
-		vector<ofxCvBlob>::iterator blobIt;
-		
-		for (blobIt = blobs.begin(); blobIt != blobs.end(); blobIt++) {
-			ofLogNotice() << "centr: " << blobIt->centroid << " boundingrect: " << blobIt->boundingRect;
+		blobPolylines.clear();
+
+		for (ofxCvBlob blob : contourFinder.blobs) {
+//			ofLogNotice() << "centroid: " << blobIt->centroid << " boundingrect: " << blobIt->boundingRect;
 			
-			oscMessageCentroids.addFloatArg(blobIt->centroid.x);
-			oscMessageCentroids.addFloatArg(blobIt->centroid.y);
+			ofPolyline blobPolyline(blob.pts);
+			blobPolyline.simplify(polylineSimplfy);
+			blobPolylines.push_back(blobPolyline);
 			
-			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.x);
-			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.y);
-			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.width);
-			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.height);
+			oscMessageCentroids.addFloatArg(blob.centroid.x);
+			oscMessageCentroids.addFloatArg(blob.centroid.y);
+			
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.x);
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.y);
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.width);
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.height);
 		}
 		
 		oscSender.sendMessage(oscMessageCentroids);
@@ -97,6 +103,15 @@ void ofApp::draw() {
 	
 	grayImage.draw(830, 10, 400, 300);
 	contourFinder.draw(830, 10, 400, 300);
+	
+	ofSetColor(200, 20, 20);
+	ofPushMatrix();
+	ofTranslate(830, 10);
+	ofScale(400.0 / kinect.width, 300.0 / kinect.height);
+	for (ofPolyline polyline : blobPolylines) {
+		polyline.draw();
+	}
+	ofPopMatrix();
 	
 	gui.draw();
 }
@@ -134,6 +149,9 @@ void ofApp::nearThresholdChanged(int &threshold) {
 }
 
 void ofApp::angleChanged(int &angle) {
-	ofLogNotice() << "setting angle to: " << angle;
 	kinect.setCameraTiltAngle(angle);
+}
+
+void ofApp::polylineSimplifyChanged(float &simplify) {
+	this->polylineSimplfy = simplify;
 }
