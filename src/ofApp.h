@@ -4,9 +4,12 @@
 #include "ofxKinect.h"
 #include "ofxOpenCv.h"
 #include "ofxGui.h"
+#include "ofxOsc.h"
+
+#define HOST "localhost"
+#define PORT 3333
 
 class ofApp : public ofBaseApp {
-	
 public:
 	void setup();
 	void update();
@@ -34,4 +37,6 @@ public:
 	
 	ofxPanel gui;
 	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider;
+	
+	ofxOscSender oscSender;
 };

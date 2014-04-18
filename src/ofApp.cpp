@@ -34,6 +34,9 @@ void ofApp::setup() {
 	gui.add(nearThresholdSlider.setup("near", nearThreshold, 0, 255));
 	gui.add(farThresholdSlider.setup("far", farThreshold, 0, 255));
 	gui.add(angleSlider.setup("angle", 0, -30, 30));
+	gui.loadFromFile("settings.xml");
+	
+	oscSender.setup(HOST, PORT);
 }
 
 void ofApp::update() {
@@ -57,12 +60,30 @@ void ofApp::update() {
 		// also, find holes is set to true so we will get interior contours as well....
 		contourFinder.findContours(grayImage, 10, (kinect.width * kinect.height) / 2, 20, false);
 		
-		// get blob data from contours
+		// get blob data from contours and send through OSC
+		ofxOscMessage oscMessageCentroids;
+		ofxOscMessage oscMessageBoundingBoxes;
+		
+		oscMessageCentroids.setAddress("/centroids");
+		oscMessageBoundingBoxes.setAddress("/boundingboxes");
+		
 		vector<ofxCvBlob> blobs = contourFinder.blobs;
 		vector<ofxCvBlob>::iterator blobIt;
+		
 		for (blobIt = blobs.begin(); blobIt != blobs.end(); blobIt++) {
 			ofLogNotice() << "centr: " << blobIt->centroid << " boundingrect: " << blobIt->boundingRect;
+			
+			oscMessageCentroids.addFloatArg(blobIt->centroid.x);
+			oscMessageCentroids.addFloatArg(blobIt->centroid.y);
+			
+			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.x);
+			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.y);
+			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.width);
+			oscMessageBoundingBoxes.addIntArg(blobIt->boundingRect.height);
 		}
+		
+		oscSender.sendMessage(oscMessageCentroids);
+		oscSender.sendMessage(oscMessageBoundingBoxes);
 	}
 }
 
@@ -86,7 +107,18 @@ void ofApp::exit() {
 }
 
 void ofApp::keyPressed(int key) {
+	switch (key) {
+		case 's':
+			gui.saveToFile("settings.xml");
+			break;
 
+		case 'l':
+			gui.loadFromFile("settings.xml");
+			break;
+			
+		default:
+			break;
+	}
 }
 
 void ofApp::mousePressed(int x, int y, int button) {
