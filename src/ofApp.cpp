@@ -1,4 +1,5 @@
 #include "ofApp.h"
+#define SSTR(x) dynamic_cast< std::ostringstream & >((std::ostringstream() << std::dec << x)).str()
 
 void ofApp::setup() {
 	kinect.setRegistration(true);
@@ -64,20 +65,40 @@ void ofApp::update() {
 		contourFinder.findContours(grayImage, 10, (kinect.width * kinect.height) / 2, 20, false);
 		
 		// get blob data from contours and send through OSC
-		ofxOscMessage oscMessageCentroids;
-		ofxOscMessage oscMessageBoundingBoxes;
+		ofxOscMessage oscMessageCount;
+		ofxOscBundle oscBundle;
 		
-		oscMessageCentroids.setAddress("/centroids");
-		oscMessageBoundingBoxes.setAddress("/boundingboxes");
+		oscMessageCount.setAddress("/count");
+		oscMessageCount.addIntArg(contourFinder.nBlobs);
+		oscBundle.addMessage(oscMessageCount);
 		
 		blobPolylines.clear();
+		int i = 0;
 
 		for (ofxCvBlob blob : contourFinder.blobs) {
-//			ofLogNotice() << "centroid: " << blobIt->centroid << " boundingrect: " << blobIt->boundingRect;
+			ofxOscMessage oscMessageCentroids, oscMessageBoundingBoxes, oscMessageBlobs;
+			
+			string centroidAddr = "/centroid/";
+			centroidAddr.append(SSTR(i));
+			
+			string boundingBoxAddr = "/boundingbox/";
+			boundingBoxAddr.append(SSTR(i));
+			
+			string blobAddr = "/blob/";
+			blobAddr.append(SSTR(i));
+			
+			oscMessageCentroids.setAddress(centroidAddr);
+			oscMessageBoundingBoxes.setAddress(boundingBoxAddr);
+			oscMessageBlobs.setAddress(blobAddr);
 			
 			ofPolyline blobPolyline(blob.pts);
 			blobPolyline.simplify(polylineSimplfy);
 			blobPolylines.push_back(blobPolyline);
+			
+			for (ofPoint blobPoint : blobPolyline.getVertices()) {
+				oscMessageBlobs.addFloatArg(blobPoint.x);
+				oscMessageBlobs.addFloatArg(blobPoint.y);
+			}
 			
 			oscMessageCentroids.addFloatArg(blob.centroid.x);
 			oscMessageCentroids.addFloatArg(blob.centroid.y);
@@ -86,10 +107,15 @@ void ofApp::update() {
 			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.y);
 			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.width);
 			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.height);
+			
+			oscBundle.addMessage(oscMessageCentroids);
+			oscBundle.addMessage(oscMessageBoundingBoxes);
+			oscBundle.addMessage(oscMessageBlobs);
+
+			i++;
 		}
 		
-		oscSender.sendMessage(oscMessageCentroids);
-		oscSender.sendMessage(oscMessageBoundingBoxes);
+		oscSender.sendBundle(oscBundle);
 	}
 }
 
