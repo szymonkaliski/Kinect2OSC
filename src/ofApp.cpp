@@ -25,12 +25,15 @@ void ofApp::setup() {
 	farThreshold = 240;
 	polylineSimplfy = 4.0f;
 	
-	ofSetFrameRate(60);
+	ofSetFrameRate(30);
+	timeThreshold = 100;
+	lastTime = ofGetElapsedTimeMillis();
 	
 	nearThresholdSlider.addListener(this, &ofApp::nearThresholdChanged);
 	farThresholdSlider.addListener(this, &ofApp::farThresholdChanged);
 	angleSlider.addListener(this, &ofApp::angleChanged);
 	simplifySlider.addListener(this, &ofApp::polylineSimplifyChanged);
+	thresholdSlider.addListener(this, &ofApp::timeThresholdChanged);
 	
 	gui.setup();
 	gui.setPosition(10, 320);
@@ -38,6 +41,7 @@ void ofApp::setup() {
 	gui.add(farThresholdSlider.setup("far", farThreshold, 0, 255));
 	gui.add(angleSlider.setup("angle", 0, -30, 30));
 	gui.add(simplifySlider.setup("simplify", polylineSimplfy, 1.0f, 20.0f));
+	gui.add(thresholdSlider.setup("threshold", timeThreshold, 10, 1000));
 	gui.loadFromFile("settings.xml");
 	
 	oscSender.setup(HOST, PORT);
@@ -46,7 +50,7 @@ void ofApp::setup() {
 void ofApp::update() {
 	kinect.update();
 
-	if (kinect.isFrameNew()) {
+	if (kinect.isFrameNew() && ofGetElapsedTimeMillis() - lastTime > timeThreshold) {
 		grayImage.setFromPixels(kinect.getDepthPixels(), kinect.width, kinect.height);
 		
 		grayThreshNear = grayImage;
@@ -96,17 +100,17 @@ void ofApp::update() {
 			blobPolylines.push_back(blobPolyline);
 			
 			for (ofPoint blobPoint : blobPolyline.getVertices()) {
-				oscMessageBlobs.addFloatArg(blobPoint.x);
-				oscMessageBlobs.addFloatArg(blobPoint.y);
+				oscMessageBlobs.addFloatArg(blobPoint.x / kinect.width);
+				oscMessageBlobs.addFloatArg(1 - (blobPoint.y / kinect.height));
 			}
 			
-			oscMessageCentroids.addFloatArg(blob.centroid.x);
-			oscMessageCentroids.addFloatArg(blob.centroid.y);
+			oscMessageCentroids.addFloatArg(blob.centroid.x / kinect.width);
+			oscMessageCentroids.addFloatArg(1 - (blob.centroid.y / kinect.height));
 			
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.x);
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.y);
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.width);
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.height);
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.x / kinect.width);
+			oscMessageBoundingBoxes.addIntArg(1 - (blob.boundingRect.y / kinect.height));
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.width / kinect.width);
+			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.height / kinect.height);
 			
 			oscBundle.addMessage(oscMessageCentroids);
 			oscBundle.addMessage(oscMessageBoundingBoxes);
@@ -116,6 +120,8 @@ void ofApp::update() {
 		}
 		
 		oscSender.sendBundle(oscBundle);
+		
+		lastTime = ofGetElapsedTimeMillis();
 	}
 }
 
@@ -180,4 +186,8 @@ void ofApp::angleChanged(int &angle) {
 
 void ofApp::polylineSimplifyChanged(float &simplify) {
 	this->polylineSimplfy = simplify;
+}
+
+void ofApp::timeThresholdChanged(int &timeThreshold) {
+	this->timeThreshold = timeThreshold;
 }

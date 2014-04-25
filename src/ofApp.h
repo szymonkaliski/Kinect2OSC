@@ -23,6 +23,7 @@ public:
 	void nearThresholdChanged(int &threshold);
 	void angleChanged(int &angle);
 	void polylineSimplifyChanged(float &simplify);
+	void timeThresholdChanged(int &timeThreshold);
 	
 	ofxKinect kinect;
 	
@@ -39,8 +40,11 @@ public:
 	
 	int nearThreshold, farThreshold;
 	
+	int timeThreshold;
+	unsigned long long lastTime;
+	
 	ofxPanel gui;
-	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider;
+	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider, thresholdSlider;
 	ofxFloatSlider simplifySlider;
 	
 	ofxOscSender oscSender;
