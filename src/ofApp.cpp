@@ -134,14 +134,20 @@ void ofApp::draw() {
 	kinect.drawDepth(420, 10, 400, 300);
 	
 	grayImage.draw(830, 10, 400, 300);
-	contourFinder.draw(830, 10, 400, 300);
+//	contourFinder.draw(830, 10, 400, 300);
 	
-	ofSetColor(200, 20, 20);
 	ofPushMatrix();
 	ofTranslate(830, 10);
 	ofScale(400.0 / kinect.width, 300.0 / kinect.height);
+	int i = 0;
 	for (ofPolyline polyline : blobPolylines) {
+		ofSetColor(200, 20, 20);
 		polyline.draw();
+
+		ofSetColor(20, 200, 200);
+		ofPoint centroidPos = contourFinder.blobs[i].centroid;
+		ofDrawSphere(centroidPos.x, centroidPos.y, 3);
+		++i;
 	}
 	ofPopMatrix();
 	
