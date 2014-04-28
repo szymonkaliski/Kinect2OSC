@@ -104,8 +104,11 @@ void ofApp::update() {
 				oscMessageBlobs.addFloatArg(1 - (blobPoint.y / kinect.height));
 			}
 			
-			oscMessageCentroids.addFloatArg(blob.centroid.x / kinect.width);
-			oscMessageCentroids.addFloatArg(1 - (blob.centroid.y / kinect.height));
+//			oscMessageCentroids.addFloatArg(blob.centroid.x / kinect.width);
+//			oscMessageCentroids.addFloatArg(1 - (blob.centroid.y / kinect.height));
+			
+			oscMessageCentroids.addFloatArg(blobPolyline.getCentroid2D().x / kinect.width);
+			oscMessageCentroids.addFloatArg(1 - (blobPolyline.getCentroid2D().y / kinect.height));
 			
 			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.x / kinect.width);
 			oscMessageBoundingBoxes.addIntArg(1 - (blob.boundingRect.y / kinect.height));
@@ -139,15 +142,13 @@ void ofApp::draw() {
 	ofPushMatrix();
 	ofTranslate(830, 10);
 	ofScale(400.0 / kinect.width, 300.0 / kinect.height);
-	int i = 0;
 	for (ofPolyline polyline : blobPolylines) {
 		ofSetColor(200, 20, 20);
 		polyline.draw();
-
+		
 		ofSetColor(20, 200, 200);
-		ofPoint centroidPos = contourFinder.blobs[i].centroid;
+		ofPoint centroidPos = polyline.getCentroid2D();
 		ofDrawSphere(centroidPos.x, centroidPos.y, 3);
-		++i;
 	}
 	ofPopMatrix();
 	
