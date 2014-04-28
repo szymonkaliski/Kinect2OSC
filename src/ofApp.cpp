@@ -107,8 +107,9 @@ void ofApp::update() {
 //			oscMessageCentroids.addFloatArg(blob.centroid.x / kinect.width);
 //			oscMessageCentroids.addFloatArg(1 - (blob.centroid.y / kinect.height));
 			
-			oscMessageCentroids.addFloatArg(blobPolyline.getCentroid2D().x / kinect.width);
-			oscMessageCentroids.addFloatArg(1 - (blobPolyline.getCentroid2D().y / kinect.height));
+			ofPoint centroidPos = blobPolyline.getCentroid2D();
+			oscMessageCentroids.addFloatArg(centroidPos.x / kinect.width);
+			oscMessageCentroids.addFloatArg(1 - (centroidPos.y / kinect.height));
 			
 			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.x / kinect.width);
 			oscMessageBoundingBoxes.addIntArg(1 - (blob.boundingRect.y / kinect.height));
