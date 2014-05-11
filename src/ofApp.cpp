@@ -78,21 +78,18 @@ void ofApp::update() {
 		
 		blobPolylines.clear();
 		int i = 0;
+		bool flipX = true;
 
 		for (ofxCvBlob blob : contourFinder.blobs) {
-			ofxOscMessage oscMessageCentroids, oscMessageBoundingBoxes, oscMessageBlobs;
+			ofxOscMessage oscMessageCentroids, oscMessageBlobs;
 			
 			string centroidAddr = "/centroid/";
 			centroidAddr.append(SSTR(i));
-			
-			string boundingBoxAddr = "/boundingbox/";
-			boundingBoxAddr.append(SSTR(i));
 			
 			string blobAddr = "/blob/";
 			blobAddr.append(SSTR(i));
 			
 			oscMessageCentroids.setAddress(centroidAddr);
-			oscMessageBoundingBoxes.setAddress(boundingBoxAddr);
 			oscMessageBlobs.setAddress(blobAddr);
 			
 			ofPolyline blobPolyline(blob.pts);
@@ -100,24 +97,25 @@ void ofApp::update() {
 			blobPolylines.push_back(blobPolyline);
 			
 			for (ofPoint blobPoint : blobPolyline.getVertices()) {
-				oscMessageBlobs.addFloatArg(blobPoint.x / kinect.width);
+				if (flipX) {
+  				oscMessageBlobs.addFloatArg(1 - (blobPoint.x / kinect.width));
+				}
+				else {
+  				oscMessageBlobs.addFloatArg(blobPoint.x / kinect.width);
+				}
 				oscMessageBlobs.addFloatArg(1 - (blobPoint.y / kinect.height));
 			}
 			
-//			oscMessageCentroids.addFloatArg(blob.centroid.x / kinect.width);
-//			oscMessageCentroids.addFloatArg(1 - (blob.centroid.y / kinect.height));
-			
 			ofPoint centroidPos = blobPolyline.getCentroid2D();
-			oscMessageCentroids.addFloatArg(centroidPos.x / kinect.width);
+			if (flipX) {
+  			oscMessageCentroids.addFloatArg(1 - (centroidPos.x / kinect.width));
+			}
+			else {
+  			oscMessageCentroids.addFloatArg(centroidPos.x / kinect.width);
+			}
 			oscMessageCentroids.addFloatArg(1 - (centroidPos.y / kinect.height));
 			
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.x / kinect.width);
-			oscMessageBoundingBoxes.addIntArg(1 - (blob.boundingRect.y / kinect.height));
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.width / kinect.width);
-			oscMessageBoundingBoxes.addIntArg(blob.boundingRect.height / kinect.height);
-			
 			oscBundle.addMessage(oscMessageCentroids);
-			oscBundle.addMessage(oscMessageBoundingBoxes);
 			oscBundle.addMessage(oscMessageBlobs);
 
 			i++;
