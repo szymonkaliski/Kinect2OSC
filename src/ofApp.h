@@ -24,6 +24,7 @@ public:
 	void angleChanged(int &angle);
 	void polylineSimplifyChanged(float &simplify);
 	void timeThresholdChanged(int &timeThreshold);
+	void flipXChanged(bool &flipX);
 	
 	ofxKinect kinect;
 	
@@ -38,14 +39,14 @@ public:
 	float polylineSimplfy;
 	vector<ofPolyline> blobPolylines;
 	
-	int nearThreshold, farThreshold;
-	
-	int timeThreshold;
+	int nearThreshold, farThreshold, timeThreshold;
 	unsigned long long lastTime;
+	bool flipX;
 	
 	ofxPanel gui;
 	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider, thresholdSlider;
 	ofxFloatSlider simplifySlider;
+	ofxToggle flipXToggle;
 	
 	ofxOscSender oscSender;
 };

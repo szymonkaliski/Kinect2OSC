@@ -6,7 +6,7 @@ endif
 
 # make sure the the OF_ROOT location is defined
 ifndef OF_ROOT
-    OF_ROOT=../../..
+    OF_ROOT=/Users/Szymon/Documents/Frameworks/openFrameworks
 endif
 
 # call the project makefile!

@@ -24,6 +24,7 @@ void ofApp::setup() {
 	nearThreshold = 250;
 	farThreshold = 240;
 	polylineSimplfy = 4.0f;
+	flipX = true;
 	
 	ofSetFrameRate(30);
 	timeThreshold = 100;
@@ -34,6 +35,7 @@ void ofApp::setup() {
 	angleSlider.addListener(this, &ofApp::angleChanged);
 	simplifySlider.addListener(this, &ofApp::polylineSimplifyChanged);
 	thresholdSlider.addListener(this, &ofApp::timeThresholdChanged);
+	flipXToggle.addListener(this, &ofApp::flipXChanged);
 	
 	gui.setup();
 	gui.setPosition(10, 320);
@@ -42,9 +44,11 @@ void ofApp::setup() {
 	gui.add(angleSlider.setup("angle", 0, -30, 30));
 	gui.add(simplifySlider.setup("simplify", polylineSimplfy, 1.0f, 20.0f));
 	gui.add(thresholdSlider.setup("threshold", timeThreshold, 10, 1000));
+	gui.add(flipXToggle.setup("flip X axis", true));
 	gui.loadFromFile("settings.xml");
 	
 	oscSender.setup(HOST, PORT);
+	ofSetWindowTitle("Kinect 2 OSC");
 }
 
 void ofApp::update() {
@@ -78,7 +82,6 @@ void ofApp::update() {
 		
 		blobPolylines.clear();
 		int i = 0;
-		bool flipX = true;
 
 		for (ofxCvBlob blob : contourFinder.blobs) {
 			ofxOscMessage oscMessageCentroids, oscMessageBlobs;
@@ -196,4 +199,9 @@ void ofApp::polylineSimplifyChanged(float &simplify) {
 
 void ofApp::timeThresholdChanged(int &timeThreshold) {
 	this->timeThreshold = timeThreshold;
+}
+
+void ofApp::flipXChanged(bool &flipX) {
+	this->flipX = flipX;
+	ofLogNotice() << "flipX: " << this->flipX;
 }
