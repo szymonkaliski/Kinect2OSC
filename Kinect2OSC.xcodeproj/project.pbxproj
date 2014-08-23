@@ -34,6 +34,19 @@
 		9A2C9D5E1620376C0229D7BB /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47960669F1BD536425B3E03A /* NetworkingUtils.cpp */; };
 		9C778A883E7A492AC65592CB /* registration.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E604D43C157691DC6296B6F /* registration.c */; };
 		9DABD668DD98F13E444E0A02 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9A1CAE26EE54C07D51A864C /* IpEndpointName.cpp */; };
+		AD62421C19A8B2E80039E53B /* Calibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9519A8A1BB00061D24 /* Calibration.cpp */; };
+		AD62421D19A8B2E80039E53B /* ContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9619A8A1BB00061D24 /* ContourFinder.cpp */; };
+		AD62421E19A8B2E80039E53B /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9719A8A1BB00061D24 /* Distance.cpp */; };
+		AD62421F19A8B2E80039E53B /* Flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9819A8A1BB00061D24 /* Flow.cpp */; };
+		AD62422019A8B2E80039E53B /* Helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9919A8A1BB00061D24 /* Helpers.cpp */; };
+		AD62422119A8B2E80039E53B /* Kalman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9A19A8A1BB00061D24 /* Kalman.cpp */; };
+		AD62422219A8B2E80039E53B /* ObjectFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9B19A8A1BB00061D24 /* ObjectFinder.cpp */; };
+		AD62422319A8B2E80039E53B /* RunningBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9C19A8A1BB00061D24 /* RunningBackground.cpp */; };
+		AD62422419A8B2E80039E53B /* Tracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9D19A8A1BB00061D24 /* Tracker.cpp */; };
+		AD62422519A8B2E80039E53B /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9E19A8A1BB00061D24 /* Utilities.cpp */; };
+		AD62422619A8B2E80039E53B /* Wrappers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9F19A8A1BB00061D24 /* Wrappers.cpp */; };
+		AD62422719A8B2F80039E53B /* ETF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB8419A8A1BB00061D24 /* ETF.cpp */; };
+		AD62422819A8B2F80039E53B /* fdog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB8519A8A1BB00061D24 /* fdog.cpp */; };
 		B0477394A49F8E131191BA77 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA34775102C865F8856E2331 /* ofxXmlSettings.cpp */; };
 		B241C11DD797F7D2C8161DC4 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E74393A696B0E36A3826A2B /* tinyxmlparser.cpp */; };
 		B61B7585A34B8F30B02FB19B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42934D7D6E581BEEE1DCDABB /* UdpSocket.cpp */; };
@@ -232,6 +245,35 @@
 		ABDAC54AC5CC73F01A26C929 /* nn_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = nn_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
 		ABF127D3EEC263DDABF704C1 /* stream_accessor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stream_accessor.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/stream_accessor.hpp; sourceTree = SOURCE_ROOT; };
 		AD3FBF46C5332FD82E67EECF /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
+		AD5DDB7F19A8A1BB00061D24 /* ETF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETF.h; sourceTree = "<group>"; };
+		AD5DDB8019A8A1BB00061D24 /* fdog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fdog.h; sourceTree = "<group>"; };
+		AD5DDB8119A8A1BB00061D24 /* imatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imatrix.h; sourceTree = "<group>"; };
+		AD5DDB8219A8A1BB00061D24 /* myvec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myvec.h; sourceTree = "<group>"; };
+		AD5DDB8419A8A1BB00061D24 /* ETF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ETF.cpp; sourceTree = "<group>"; };
+		AD5DDB8519A8A1BB00061D24 /* fdog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fdog.cpp; sourceTree = "<group>"; };
+		AD5DDB8919A8A1BB00061D24 /* Calibration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calibration.h; sourceTree = "<group>"; };
+		AD5DDB8A19A8A1BB00061D24 /* ContourFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContourFinder.h; sourceTree = "<group>"; };
+		AD5DDB8B19A8A1BB00061D24 /* Distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Distance.h; sourceTree = "<group>"; };
+		AD5DDB8C19A8A1BB00061D24 /* Flow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flow.h; sourceTree = "<group>"; };
+		AD5DDB8D19A8A1BB00061D24 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		AD5DDB8E19A8A1BB00061D24 /* Kalman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kalman.h; sourceTree = "<group>"; };
+		AD5DDB8F19A8A1BB00061D24 /* ObjectFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectFinder.h; sourceTree = "<group>"; };
+		AD5DDB9019A8A1BB00061D24 /* RunningBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunningBackground.h; sourceTree = "<group>"; };
+		AD5DDB9119A8A1BB00061D24 /* Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		AD5DDB9219A8A1BB00061D24 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		AD5DDB9319A8A1BB00061D24 /* Wrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wrappers.h; sourceTree = "<group>"; };
+		AD5DDB9519A8A1BB00061D24 /* Calibration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calibration.cpp; sourceTree = "<group>"; };
+		AD5DDB9619A8A1BB00061D24 /* ContourFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContourFinder.cpp; sourceTree = "<group>"; };
+		AD5DDB9719A8A1BB00061D24 /* Distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Distance.cpp; sourceTree = "<group>"; };
+		AD5DDB9819A8A1BB00061D24 /* Flow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flow.cpp; sourceTree = "<group>"; };
+		AD5DDB9919A8A1BB00061D24 /* Helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Helpers.cpp; sourceTree = "<group>"; };
+		AD5DDB9A19A8A1BB00061D24 /* Kalman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kalman.cpp; sourceTree = "<group>"; };
+		AD5DDB9B19A8A1BB00061D24 /* ObjectFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectFinder.cpp; sourceTree = "<group>"; };
+		AD5DDB9C19A8A1BB00061D24 /* RunningBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RunningBackground.cpp; sourceTree = "<group>"; };
+		AD5DDB9D19A8A1BB00061D24 /* Tracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cpp; sourceTree = "<group>"; };
+		AD5DDB9E19A8A1BB00061D24 /* Utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
+		AD5DDB9F19A8A1BB00061D24 /* Wrappers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wrappers.cpp; sourceTree = "<group>"; };
+		AD5DDBA119A8A1BB00061D24 /* ofxCv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCv.h; sourceTree = "<group>"; };
 		B07D2ADC50DDFDA87B57C68B /* cxcore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cxcore.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.h; sourceTree = SOURCE_ROOT; };
 		B0AA9880D068D06622052948 /* OscHostEndianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscHostEndianness.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h; sourceTree = SOURCE_ROOT; };
 		B13E9DF78430C7A853C69C40 /* random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = random.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
@@ -699,6 +741,126 @@
 				F9F05170CB9BDF47DA2B6E6A /* include */,
 			);
 			name = opencv;
+			path = ../../../../../../Dropbox/Projects/Archive/Kinect2OSC;
+			sourceTree = "<group>";
+		};
+		AD5DDB7919A8A17A00061D24 /* ofxCv */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB7A19A8A1BB00061D24 /* libs */,
+				AD5DDBA019A8A1BB00061D24 /* src */,
+			);
+			name = ofxCv;
+			sourceTree = "<group>";
+		};
+		AD5DDB7A19A8A1BB00061D24 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AAA97F42C2FE4A31ECFD0585 /* opencv */,
+				AD5DDB7C19A8A1BB00061D24 /* CLD */,
+				AD5DDB8619A8A1BB00061D24 /* ofxCv */,
+			);
+			name = libs;
+			path = ../../../../Documents/Frameworks/openFrameworks/addons/ofxCv/libs;
+			sourceTree = "<group>";
+		};
+		AD5DDB7C19A8A1BB00061D24 /* CLD */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB7D19A8A1BB00061D24 /* include */,
+				AD5DDB8319A8A1BB00061D24 /* src */,
+			);
+			path = CLD;
+			sourceTree = "<group>";
+		};
+		AD5DDB7D19A8A1BB00061D24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB7E19A8A1BB00061D24 /* CLD */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AD5DDB7E19A8A1BB00061D24 /* CLD */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB7F19A8A1BB00061D24 /* ETF.h */,
+				AD5DDB8019A8A1BB00061D24 /* fdog.h */,
+				AD5DDB8119A8A1BB00061D24 /* imatrix.h */,
+				AD5DDB8219A8A1BB00061D24 /* myvec.h */,
+			);
+			path = CLD;
+			sourceTree = "<group>";
+		};
+		AD5DDB8319A8A1BB00061D24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB8419A8A1BB00061D24 /* ETF.cpp */,
+				AD5DDB8519A8A1BB00061D24 /* fdog.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AD5DDB8619A8A1BB00061D24 /* ofxCv */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB8719A8A1BB00061D24 /* include */,
+				AD5DDB9419A8A1BB00061D24 /* src */,
+			);
+			path = ofxCv;
+			sourceTree = "<group>";
+		};
+		AD5DDB8719A8A1BB00061D24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB8819A8A1BB00061D24 /* ofxCv */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AD5DDB8819A8A1BB00061D24 /* ofxCv */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB8919A8A1BB00061D24 /* Calibration.h */,
+				AD5DDB8A19A8A1BB00061D24 /* ContourFinder.h */,
+				AD5DDB8B19A8A1BB00061D24 /* Distance.h */,
+				AD5DDB8C19A8A1BB00061D24 /* Flow.h */,
+				AD5DDB8D19A8A1BB00061D24 /* Helpers.h */,
+				AD5DDB8E19A8A1BB00061D24 /* Kalman.h */,
+				AD5DDB8F19A8A1BB00061D24 /* ObjectFinder.h */,
+				AD5DDB9019A8A1BB00061D24 /* RunningBackground.h */,
+				AD5DDB9119A8A1BB00061D24 /* Tracker.h */,
+				AD5DDB9219A8A1BB00061D24 /* Utilities.h */,
+				AD5DDB9319A8A1BB00061D24 /* Wrappers.h */,
+			);
+			path = ofxCv;
+			sourceTree = "<group>";
+		};
+		AD5DDB9419A8A1BB00061D24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDB9519A8A1BB00061D24 /* Calibration.cpp */,
+				AD5DDB9619A8A1BB00061D24 /* ContourFinder.cpp */,
+				AD5DDB9719A8A1BB00061D24 /* Distance.cpp */,
+				AD5DDB9819A8A1BB00061D24 /* Flow.cpp */,
+				AD5DDB9919A8A1BB00061D24 /* Helpers.cpp */,
+				AD5DDB9A19A8A1BB00061D24 /* Kalman.cpp */,
+				AD5DDB9B19A8A1BB00061D24 /* ObjectFinder.cpp */,
+				AD5DDB9C19A8A1BB00061D24 /* RunningBackground.cpp */,
+				AD5DDB9D19A8A1BB00061D24 /* Tracker.cpp */,
+				AD5DDB9E19A8A1BB00061D24 /* Utilities.cpp */,
+				AD5DDB9F19A8A1BB00061D24 /* Wrappers.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		AD5DDBA019A8A1BB00061D24 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD5DDBA119A8A1BB00061D24 /* ofxCv.h */,
+			);
+			name = src;
+			path = ../../../../Documents/Frameworks/openFrameworks/addons/ofxCv/src;
 			sourceTree = "<group>";
 		};
 		BA6760AC87647DD61A92BD41 /* win32 */ = {
@@ -715,6 +877,7 @@
 			children = (
 				480A780D8D0308AE4A368801 /* ofxGui */,
 				9683228C705CA3FF4F2EA945 /* ofxKinect */,
+				AD5DDB7919A8A17A00061D24 /* ofxCv */,
 				A0B90D3B0ADB9C1716816714 /* ofxOpenCv */,
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
@@ -824,7 +987,6 @@
 		DCC60D6724B56635AE867535 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				AAA97F42C2FE4A31ECFD0585 /* opencv */,
 			);
 			name = libs;
 			sourceTree = "<group>";
@@ -1041,6 +1203,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD62422719A8B2F80039E53B /* ETF.cpp in Sources */,
+				AD62422819A8B2F80039E53B /* fdog.cpp in Sources */,
+				AD62421C19A8B2E80039E53B /* Calibration.cpp in Sources */,
+				AD62421D19A8B2E80039E53B /* ContourFinder.cpp in Sources */,
+				AD62421E19A8B2E80039E53B /* Distance.cpp in Sources */,
+				AD62421F19A8B2E80039E53B /* Flow.cpp in Sources */,
+				AD62422019A8B2E80039E53B /* Helpers.cpp in Sources */,
+				AD62422119A8B2E80039E53B /* Kalman.cpp in Sources */,
+				AD62422219A8B2E80039E53B /* ObjectFinder.cpp in Sources */,
+				AD62422319A8B2E80039E53B /* RunningBackground.cpp in Sources */,
+				AD62422419A8B2E80039E53B /* Tracker.cpp in Sources */,
+				AD62422519A8B2E80039E53B /* Utilities.cpp in Sources */,
+				AD62422619A8B2E80039E53B /* Wrappers.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				7CD9A3BE1D814278404FDB45 /* ofxBaseGui.cpp in Sources */,
@@ -1106,6 +1281,7 @@
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -1169,6 +1345,16 @@
 					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src,
 					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs,
 					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include/CLD,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/src,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/src,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OF_PATH = /Users/Szymon/Documents/Frameworks/openFrameworks;
@@ -1191,6 +1377,7 @@
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -1255,6 +1442,16 @@
 					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src,
 					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs,
 					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include/CLD,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/src,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/src,
+					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OF_PATH = /Users/Szymon/Documents/Frameworks/openFrameworks;
