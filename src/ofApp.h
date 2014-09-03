@@ -2,9 +2,8 @@
 
 #include "ofMain.h"
 #include "ofxKinect.h"
-#include "ofxOpenCv.h"
 #include "ofxCv.h"
-#include "ofxGui.h"
+#include "ofxUI.h"
 #include "ofxOsc.h"
 
 #define HOST "localhost"
@@ -18,39 +17,25 @@ public:
 	void exit();
 
 	void keyPressed(int key);
-	void mousePressed(int x, int y, int button);
-
-	void farThresholdChanged(int &threshold);
-	void nearThresholdChanged(int &threshold);
-	void angleChanged(int &angle);
-	void polylineSimplifyChanged(float &simplify);
-	void timeThresholdChanged(int &timeThreshold);
-	void flipXChanged(bool &flipX);
+	void guiEvent(ofxUIEventArgs &event);
 
 	ofxKinect kinect;
 
 	ofxCv::FlowPyrLK flowPyrLK;
-	ofxCv::Flow *flowCurrent;
+	ofxCv::ContourFinder contourFinder;
+	ofImage kinectImage, nearImage, farImage;
 
-	ofxCvColorImage colorImg;
-
-	ofxCvGrayscaleImage grayImage;			// grayscale depth image
-	ofxCvGrayscaleImage grayThreshNear;	// the near thresholded image
-	ofxCvGrayscaleImage grayThreshFar;	// the far thresholded image
-
-	ofxCvContourFinder contourFinder;
-
-	float polylineSimplfy;
 	vector<ofPolyline> blobPolylines;
 
-	int nearThreshold, farThreshold, timeThreshold;
+	int nearThreshold, farThreshold, timeThreshold, kinectAngle;
+	float polylineSimplfy;
+	bool flipX, flipY, flowEnabled;
 	unsigned long long lastTime;
-	bool flipX;
 
-	ofxPanel gui;
-	ofxIntSlider nearThresholdSlider, farThresholdSlider, angleSlider, thresholdSlider;
-	ofxFloatSlider simplifySlider;
-	ofxToggle flipXToggle;
+	int flowMaxFeatures, flowMaxLevel, flowMinDistance;
+	float flowQualityLevel;
+
+	ofxUICanvas *gui;
 
 	ofxOscSender oscSender;
 };
