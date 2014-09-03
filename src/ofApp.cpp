@@ -62,6 +62,7 @@ void ofApp::setup() {
 	guiMain->addSlider("angle", -30, 30, kinectAngle);
 	guiMain->addSlider("simplify", 1.0, 20.0, polylineSimplfy);
 	guiMain->addSlider("threshold", 10.0, 1000.0, timeThreshold);
+	guiMain->autoSizeToFitWidgets();
 	ofAddListener(guiMain->newGUIEvent, this, &ofApp::guiEvent);
 
 	ofxUICanvas *guiFlow = new ofxUICanvas();
@@ -72,6 +73,7 @@ void ofApp::setup() {
 	guiFlow->addSlider("max level", 1, 8, flowMaxLevel);
 	guiFlow->addSlider("min distance", 1, 16, flowMinDistance);
 	guiFlow->addSlider("quality level", 0.001, 0.1, flowQualityLevel);
+	guiMain->autoSizeToFitWidgets();
 	ofAddListener(guiFlow->newGUIEvent, this, &ofApp::guiEvent);
 
 	gui->addCanvas(guiMain);
@@ -152,11 +154,11 @@ void ofApp::update() {
 
 			for (ofPoint blobPoint : polyline.getVertices()) {
 				oscMessageBlobs.addFloatArg(blobPoint.x / kinect.width);
-				oscMessageBlobs.addFloatArg(1 - (blobPoint.y / kinect.height));
+				oscMessageBlobs.addFloatArg(blobPoint.y / kinect.height);
 			}
 
 			oscMessageCentroids.addFloatArg(centroid.x / kinect.width);
-			oscMessageCentroids.addFloatArg(1 - (centroid.y / kinect.height));
+			oscMessageCentroids.addFloatArg(centroid.y / kinect.height);
 
 			oscBundle.addMessage(oscMessageCentroids);
 			oscBundle.addMessage(oscMessageBlobs);
@@ -187,8 +189,8 @@ void ofApp::update() {
 
 				for (ofPoint flowPoint : flowPoints) {
 					if (testRect.inside(flowPoint)) {
-						oscFlowMessage.addFloatArg(flowPoint.x);
-						oscFlowMessage.addFloatArg(flowPoint.y);
+						oscFlowMessage.addFloatArg(flowPoint.x / kinect.width);
+						oscFlowMessage.addFloatArg(flowPoint.y / kinect.height);
 					}
 				}
 
@@ -242,7 +244,7 @@ void ofApp::draw() {
 }
 
 void ofApp::exit() {
-	gui->saveSettings("settings/", "ui-");
+//	gui->saveSettings("settings/", "ui-");
 	delete gui;
 
 	kinect.setCameraTiltAngle(0);
