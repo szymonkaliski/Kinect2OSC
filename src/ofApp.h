@@ -27,15 +27,15 @@ public:
 
 	vector<ofPolyline> blobPolylines;
 
-	int nearThreshold, farThreshold, timeThreshold, kinectAngle;
+	int nearThreshold, farThreshold, timeThreshold, resetTimeThreshold, kinectAngle;
 	float polylineSimplfy;
 	bool flipX, flipY, flowEnabled;
-	unsigned long long lastTime;
+	unsigned long long lastTime, lastResetTime;
 
 	int flowMaxFeatures, flowMaxLevel, flowMinDistance;
 	float flowQualityLevel;
 
-	ofxUICanvas *gui;
+	ofxUITabBar *gui;
 
 	ofxOscSender oscSender;
 };
