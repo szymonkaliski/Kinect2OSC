@@ -21,7 +21,6 @@
 		7B7926CEBD13F8C156290F35 /* ofxOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBEE4A7D695655C0E93676C7 /* ofxOscBundle.cpp */; };
 		82CF8B66D444937AA15A93E8 /* ofxKinectExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B7807F2A389CF83D32BAD49 /* ofxKinectExtras.cpp */; };
 		8C64D1B198E6A54202FE7A6F /* usb_libusb10.c in Sources */ = {isa = PBXBuildFile; fileRef = 18146761CAEFF71E5AD0417D /* usb_libusb10.c */; };
-		914F5320AD9111BC309BA952 /* UdpSocketWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9617EFC4CBC4663D394EEC4C /* UdpSocketWin.cpp */; };
 		9A2C9D5E1620376C0229D7BB /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47960669F1BD536425B3E03A /* NetworkingUtils.cpp */; };
 		9C778A883E7A492AC65592CB /* registration.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E604D43C157691DC6296B6F /* registration.c */; };
 		9DABD668DD98F13E444E0A02 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9A1CAE26EE54C07D51A864C /* IpEndpointName.cpp */; };
@@ -86,7 +85,6 @@
 		B241C11DD797F7D2C8161DC4 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E74393A696B0E36A3826A2B /* tinyxmlparser.cpp */; };
 		B61B7585A34B8F30B02FB19B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42934D7D6E581BEEE1DCDABB /* UdpSocket.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		C6FDB803D7DC0E8C39D190A7 /* NetworkingUtilsWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1F58B45C1B5E87BF02DD0C2 /* NetworkingUtilsWin.cpp */; };
 		CACAB43BC1C2BF411D7CC079 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43643AA4EAA1954A3FCB4ED1 /* OscReceivedElements.cpp */; };
 		CF49720B45C5C5998105894E /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7BA95C211BFD5953AC4E1EB /* ofxOscParameterSync.cpp */; };
 		D137DEE407C064B180986BA0 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F1A307C378ED026BB2F1B4 /* OscTypes.cpp */; };
@@ -240,7 +238,6 @@
 		951D60C4E3A0CF3CFA7986D7 /* index_testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = index_testing.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
 		954BD61739DEE3DC0EDAB47F /* kdtree_single_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kdtree_single_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
 		95FE8C848A6059D24B4A9C22 /* cxeigen.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cxeigen.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxeigen.hpp; sourceTree = SOURCE_ROOT; };
-		9617EFC4CBC4663D394EEC4C /* UdpSocketWin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UdpSocketWin.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32/UdpSocketWin.cpp; sourceTree = SOURCE_ROOT; };
 		96C4DA854E60EF73C826C374 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
 		98A8604D78C31C666C762CB3 /* general.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = general.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
 		9BB43157169C328390C52A31 /* ml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ml.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml/ml.hpp; sourceTree = SOURCE_ROOT; };
@@ -432,7 +429,6 @@
 		E9CDD31E0463646B2A034331 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		EF0C83687E251FC89D9D32D4 /* audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = audio.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/audio.c; sourceTree = SOURCE_ROOT; };
 		F12AAB2C59335FFD3A540365 /* internal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = internal.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp; sourceTree = SOURCE_ROOT; };
-		F1F58B45C1B5E87BF02DD0C2 /* NetworkingUtilsWin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtilsWin.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32/NetworkingUtilsWin.cpp; sourceTree = SOURCE_ROOT; };
 		F7878DEBC6C0A047BF6DAFC7 /* streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = streams.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/streams.hpp; sourceTree = SOURCE_ROOT; };
 		FA34775102C865F8856E2331 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
 		FAC0467D631CA0F883F78242 /* cv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cv.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cv.h; sourceTree = SOURCE_ROOT; };
@@ -1021,15 +1017,6 @@
 			path = ../../../../Documents/Frameworks/openFrameworks/addons/ofxUI/src;
 			sourceTree = "<group>";
 		};
-		BA6760AC87647DD61A92BD41 /* win32 */ = {
-			isa = PBXGroup;
-			children = (
-				F1F58B45C1B5E87BF02DD0C2 /* NetworkingUtilsWin.cpp */,
-				9617EFC4CBC4663D394EEC4C /* UdpSocketWin.cpp */,
-			);
-			name = win32;
-			sourceTree = "<group>";
-		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
@@ -1237,7 +1224,6 @@
 				641362CA659FAFEE4E81001B /* posix */,
 				1D73169EE8E8EB7873F271E0 /* TimerListener.h */,
 				89488911FF4C1B5EC6FC9EF3 /* UdpSocket.h */,
-				BA6760AC87647DD61A92BD41 /* win32 */,
 			);
 			name = ip;
 			sourceTree = "<group>";
@@ -1401,8 +1387,6 @@
 				AD7EB6A819B722B9000579BF /* ofxUIToggleMatrix.cpp in Sources */,
 				9A2C9D5E1620376C0229D7BB /* NetworkingUtils.cpp in Sources */,
 				B61B7585A34B8F30B02FB19B /* UdpSocket.cpp in Sources */,
-				C6FDB803D7DC0E8C39D190A7 /* NetworkingUtilsWin.cpp in Sources */,
-				914F5320AD9111BC309BA952 /* UdpSocketWin.cpp in Sources */,
 				AD7EB68919B722B9000579BF /* ofxUIDropDownList.cpp in Sources */,
 				AD7EB69719B722B9000579BF /* ofxUIMultiImageButton.cpp in Sources */,
 				AD7EB6A319B722B9000579BF /* ofxUISuperCanvas.cpp in Sources */,
