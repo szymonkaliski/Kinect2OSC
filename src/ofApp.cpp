@@ -1,4 +1,5 @@
 #include "ofApp.h"
+
 #define SSTR(x) dynamic_cast< std::ostringstream & >((std::ostringstream() << std::dec << x)).str()
 
 void ofApp::setup() {
@@ -244,7 +245,7 @@ void ofApp::draw() {
 }
 
 void ofApp::exit() {
-//	gui->saveSettings("settings/", "ui-");
+  gui->saveSettings("settings/", "ui-");
 	delete gui;
 
 	kinect.setCameraTiltAngle(0);
