@@ -8,7 +8,7 @@ Messages include recognized blob contours, centroids, and Lucas-Kanade optical f
 
 ## Installation
 
-You can try and build this application yourself, it requires openFrameworks and some external addons: ofCv, ofUI, ofOsc.
+You can try and build this application yourself, it requires openFrameworks and some external addons: ofxCv, ofxUI, ofxOsc.
 
 There's also binary available in [releases](https://github.com/szymonkaliski/Kinect2OSC/releases) section.
 
