@@ -245,7 +245,7 @@ void ofApp::draw() {
 }
 
 void ofApp::exit() {
-  gui->saveSettings("settings/", "ui-");
+	gui->saveSettings("settings/", "ui-");
 	delete gui;
 
 	kinect.setCameraTiltAngle(0);
