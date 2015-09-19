@@ -1,5 +1,7 @@
 # Kinect2OSC
 
+## There's experimental processing-based version in branch `processing`.
+
 Kinect2OSC is simple openFrameworks applications for sending some pre-prepared data from Microsoft Kinect using OSC.
 
 Messages include recognized blob contours, centroids, and Lucas-Kanade optical flow data.
