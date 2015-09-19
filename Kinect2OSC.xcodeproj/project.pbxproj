@@ -24,63 +24,7 @@
 		9A2C9D5E1620376C0229D7BB /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47960669F1BD536425B3E03A /* NetworkingUtils.cpp */; };
 		9C778A883E7A492AC65592CB /* registration.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E604D43C157691DC6296B6F /* registration.c */; };
 		9DABD668DD98F13E444E0A02 /* IpEndpointName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9A1CAE26EE54C07D51A864C /* IpEndpointName.cpp */; };
-		AD62421C19A8B2E80039E53B /* Calibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9519A8A1BB00061D24 /* Calibration.cpp */; };
-		AD62421D19A8B2E80039E53B /* ContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9619A8A1BB00061D24 /* ContourFinder.cpp */; };
-		AD62421E19A8B2E80039E53B /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9719A8A1BB00061D24 /* Distance.cpp */; };
-		AD62421F19A8B2E80039E53B /* Flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9819A8A1BB00061D24 /* Flow.cpp */; };
-		AD62422019A8B2E80039E53B /* Helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9919A8A1BB00061D24 /* Helpers.cpp */; };
-		AD62422119A8B2E80039E53B /* Kalman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9A19A8A1BB00061D24 /* Kalman.cpp */; };
-		AD62422219A8B2E80039E53B /* ObjectFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9B19A8A1BB00061D24 /* ObjectFinder.cpp */; };
-		AD62422319A8B2E80039E53B /* RunningBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9C19A8A1BB00061D24 /* RunningBackground.cpp */; };
-		AD62422419A8B2E80039E53B /* Tracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9D19A8A1BB00061D24 /* Tracker.cpp */; };
-		AD62422519A8B2E80039E53B /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9E19A8A1BB00061D24 /* Utilities.cpp */; };
-		AD62422619A8B2E80039E53B /* Wrappers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB9F19A8A1BB00061D24 /* Wrappers.cpp */; };
-		AD62422719A8B2F80039E53B /* ETF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB8419A8A1BB00061D24 /* ETF.cpp */; };
-		AD62422819A8B2F80039E53B /* fdog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5DDB8519A8A1BB00061D24 /* fdog.cpp */; };
-		AD7EB68119B722B9000579BF /* ofxUI2DGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB62419B722B9000579BF /* ofxUI2DGraph.cpp */; };
-		AD7EB68219B722B9000579BF /* ofxUI2DPad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB62619B722B9000579BF /* ofxUI2DPad.cpp */; };
-		AD7EB68319B722B9000579BF /* ofxUIBaseDraws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB62819B722B9000579BF /* ofxUIBaseDraws.cpp */; };
-		AD7EB68419B722B9000579BF /* ofxUIBiLabelSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB62A19B722B9000579BF /* ofxUIBiLabelSlider.cpp */; };
-		AD7EB68519B722B9000579BF /* ofxUIButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB62C19B722B9000579BF /* ofxUIButton.cpp */; };
-		AD7EB68619B722B9000579BF /* ofxUICanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB62E19B722B9000579BF /* ofxUICanvas.cpp */; };
-		AD7EB68719B722B9000579BF /* ofxUICircleSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63019B722B9000579BF /* ofxUICircleSlider.cpp */; };
-		AD7EB68819B722B9000579BF /* ofxUIDragableLabelButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63319B722B9000579BF /* ofxUIDragableLabelButton.cpp */; };
-		AD7EB68919B722B9000579BF /* ofxUIDropDownList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63519B722B9000579BF /* ofxUIDropDownList.cpp */; };
-		AD7EB68A19B722B9000579BF /* ofxUIEventArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63719B722B9000579BF /* ofxUIEventArgs.cpp */; };
-		AD7EB68B19B722B9000579BF /* ofxUIFPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63919B722B9000579BF /* ofxUIFPS.cpp */; };
-		AD7EB68C19B722B9000579BF /* ofxUIFPSSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63B19B722B9000579BF /* ofxUIFPSSlider.cpp */; };
-		AD7EB68D19B722B9000579BF /* ofxUIImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63D19B722B9000579BF /* ofxUIImage.cpp */; };
-		AD7EB68E19B722B9000579BF /* ofxUIImageButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB63F19B722B9000579BF /* ofxUIImageButton.cpp */; };
-		AD7EB68F19B722B9000579BF /* ofxUIImageSampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64119B722B9000579BF /* ofxUIImageSampler.cpp */; };
-		AD7EB69019B722B9000579BF /* ofxUIImageSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64319B722B9000579BF /* ofxUIImageSlider.cpp */; };
-		AD7EB69119B722B9000579BF /* ofxUIImageToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64519B722B9000579BF /* ofxUIImageToggle.cpp */; };
-		AD7EB69219B722B9000579BF /* ofxUILabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64719B722B9000579BF /* ofxUILabel.cpp */; };
-		AD7EB69319B722B9000579BF /* ofxUILabelButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64919B722B9000579BF /* ofxUILabelButton.cpp */; };
-		AD7EB69419B722B9000579BF /* ofxUILabelToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64B19B722B9000579BF /* ofxUILabelToggle.cpp */; };
-		AD7EB69519B722B9000579BF /* ofxUIMinimalSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64D19B722B9000579BF /* ofxUIMinimalSlider.cpp */; };
-		AD7EB69619B722B9000579BF /* ofxUIMovingGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB64F19B722B9000579BF /* ofxUIMovingGraph.cpp */; };
-		AD7EB69719B722B9000579BF /* ofxUIMultiImageButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65119B722B9000579BF /* ofxUIMultiImageButton.cpp */; };
-		AD7EB69819B722B9000579BF /* ofxUIMultiImageToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65319B722B9000579BF /* ofxUIMultiImageToggle.cpp */; };
-		AD7EB69919B722B9000579BF /* ofxUINumberDialer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65519B722B9000579BF /* ofxUINumberDialer.cpp */; };
-		AD7EB69A19B722B9000579BF /* ofxUIRadio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65819B722B9000579BF /* ofxUIRadio.cpp */; };
-		AD7EB69B19B722B9000579BF /* ofxUIRangeSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65A19B722B9000579BF /* ofxUIRangeSlider.cpp */; };
-		AD7EB69C19B722B9000579BF /* ofxUIRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65C19B722B9000579BF /* ofxUIRectangle.cpp */; };
-		AD7EB69D19B722B9000579BF /* ofxUIRotarySlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB65E19B722B9000579BF /* ofxUIRotarySlider.cpp */; };
-		AD7EB69E19B722B9000579BF /* ofxUIScrollableCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66019B722B9000579BF /* ofxUIScrollableCanvas.cpp */; };
-		AD7EB69F19B722B9000579BF /* ofxUISlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66219B722B9000579BF /* ofxUISlider.cpp */; };
-		AD7EB6A019B722B9000579BF /* ofxUISortableList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66419B722B9000579BF /* ofxUISortableList.cpp */; };
-		AD7EB6A119B722B9000579BF /* ofxUISpacer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66619B722B9000579BF /* ofxUISpacer.cpp */; };
-		AD7EB6A219B722B9000579BF /* ofxUISpectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66819B722B9000579BF /* ofxUISpectrum.cpp */; };
-		AD7EB6A319B722B9000579BF /* ofxUISuperCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66A19B722B9000579BF /* ofxUISuperCanvas.cpp */; };
-		AD7EB6A419B722B9000579BF /* ofxUITabBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66C19B722B9000579BF /* ofxUITabBar.cpp */; };
-		AD7EB6A519B722B9000579BF /* ofxUITextArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB66E19B722B9000579BF /* ofxUITextArea.cpp */; };
-		AD7EB6A619B722B9000579BF /* ofxUITextInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67019B722B9000579BF /* ofxUITextInput.cpp */; };
-		AD7EB6A719B722B9000579BF /* ofxUIToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67219B722B9000579BF /* ofxUIToggle.cpp */; };
-		AD7EB6A819B722B9000579BF /* ofxUIToggleMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67419B722B9000579BF /* ofxUIToggleMatrix.cpp */; };
-		AD7EB6A919B722B9000579BF /* ofxUIValuePlotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67719B722B9000579BF /* ofxUIValuePlotter.cpp */; };
-		AD7EB6AA19B722B9000579BF /* ofxUIWaveform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67919B722B9000579BF /* ofxUIWaveform.cpp */; };
-		AD7EB6AB19B722B9000579BF /* ofxUIWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67B19B722B9000579BF /* ofxUIWidget.cpp */; };
-		AD7EB6AC19B722B9000579BF /* ofxUIWidgetWithLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7EB67E19B722B9000579BF /* ofxUIWidgetWithLabel.cpp */; };
+		ADE13F581B6E5B8D00D2D844 /* openFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE13F571B6E5B8D00D2D844 /* openFrameworks.a */; };
 		B0477394A49F8E131191BA77 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA34775102C865F8856E2331 /* ofxXmlSettings.cpp */; };
 		B241C11DD797F7D2C8161DC4 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E74393A696B0E36A3826A2B /* tinyxmlparser.cpp */; };
 		B61B7585A34B8F30B02FB19B /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42934D7D6E581BEEE1DCDABB /* UdpSocket.cpp */; };
@@ -89,7 +33,6 @@
 		CF49720B45C5C5998105894E /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7BA95C211BFD5953AC4E1EB /* ofxOscParameterSync.cpp */; };
 		D137DEE407C064B180986BA0 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F1A307C378ED026BB2F1B4 /* OscTypes.cpp */; };
 		DFD6463296C0242CF82B0A5F /* tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 89FF85FAD2F78E0A9FED5474 /* tilt.c */; };
-		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
 		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
 		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
@@ -143,267 +86,69 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		022CF20C83DC94EDD8CB3DA4 /* allocator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = allocator.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/allocator.h; sourceTree = SOURCE_ROOT; };
-		046483EA2E4EABBA22B0ED20 /* usb_libusb10.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = usb_libusb10.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/usb_libusb10.h; sourceTree = SOURCE_ROOT; };
-		051DF19F2DEC34E9A77870BB /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscOutboundPacketStream.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp; sourceTree = SOURCE_ROOT; };
-		05ABA5CF118FB72C5CB23BEC /* ml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ml.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/ml.h; sourceTree = SOURCE_ROOT; };
-		08F3BA3463BE9A4107F3E69A /* objdetect.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = objdetect.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect/objdetect.hpp; sourceTree = SOURCE_ROOT; };
-		0B33B95F00675114B3976B90 /* cxcore.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cxcore.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.hpp; sourceTree = SOURCE_ROOT; };
-		0B5319AA213FEAC8712FA90A /* matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/matrix.h; sourceTree = SOURCE_ROOT; };
-		0D74400762B269820917667D /* ofxKinect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxKinect.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp; sourceTree = SOURCE_ROOT; };
-		0E604D43C157691DC6296B6F /* registration.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = registration.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/registration.c; sourceTree = SOURCE_ROOT; };
-		0EF62E85A2993408B9F77CEB /* lsh_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lsh_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_index.h; sourceTree = SOURCE_ROOT; };
-		1062C044690C9250B0E0ACD2 /* autotuned_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = autotuned_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/autotuned_index.h; sourceTree = SOURCE_ROOT; };
-		134E76616D09C681A844AE7E /* saving.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = saving.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/saving.h; sourceTree = SOURCE_ROOT; };
-		152E4CEC0B2AC099FFDC2BC8 /* heap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = heap.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/heap.h; sourceTree = SOURCE_ROOT; };
-		15973FECEFEC9810B5E5DF42 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
-		160A8AFFC20C538AF94A38AD /* features2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = features2d.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d/features2d.hpp; sourceTree = SOURCE_ROOT; };
-		179BFC88056FA5E60CE45BF7 /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
-		17C711BEEE3EF02F0A19BBE4 /* dummy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dummy.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dummy.h; sourceTree = SOURCE_ROOT; };
-		18146761CAEFF71E5AD0417D /* usb_libusb10.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = usb_libusb10.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/usb_libusb10.c; sourceTree = SOURCE_ROOT; };
-		1ACBECE6027D88091F76A80C /* sampling.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sampling.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/sampling.h; sourceTree = SOURCE_ROOT; };
-		1D73169EE8E8EB7873F271E0 /* TimerListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TimerListener.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h; sourceTree = SOURCE_ROOT; };
-		1DF918FAC2534D3ACEB6FACC /* lsh_table.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lsh_table.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/lsh_table.h; sourceTree = SOURCE_ROOT; };
-		1F9CB05F04682C9E55DCDCB5 /* cvaux.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cvaux.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.hpp; sourceTree = SOURCE_ROOT; };
-		2515DD0366D520549C33E3E5 /* highgui.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = highgui.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui.hpp; sourceTree = SOURCE_ROOT; };
-		25344C163A163005916B8377 /* all_indices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = all_indices.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/all_indices.h; sourceTree = SOURCE_ROOT; };
-		28EF703D8BA48CF94C6BFCA3 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
-		2990F40BA40A2FCF67E852A1 /* core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = core.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core.hpp; sourceTree = SOURCE_ROOT; };
-		29D5C56F7B8A70579771B295 /* keep_alive.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = keep_alive.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/keep_alive.c; sourceTree = SOURCE_ROOT; };
-		2B10698EAE76E3B25B7F952E /* OscTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscTypes.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h; sourceTree = SOURCE_ROOT; };
-		2C1DFE874A102617BCCFB8C5 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
-		2DD9258547DC42633CB65127 /* defines.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = defines.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/defines.h; sourceTree = SOURCE_ROOT; };
-		2EA3D9C60D9CF94991767A5B /* cameras.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cameras.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/cameras.h; sourceTree = SOURCE_ROOT; };
-		3023D4AFA82722B4C377F59A /* flann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = flann.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann.hpp; sourceTree = SOURCE_ROOT; };
-		345CFA84320FA14DF1E77E26 /* dynamic_bitset.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dynamic_bitset.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dynamic_bitset.h; sourceTree = SOURCE_ROOT; };
-		349A3456037BD28CD8707D03 /* ofxKinect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxKinect.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/ofxKinect.h; sourceTree = SOURCE_ROOT; };
-		3AE8BE22BDA243B216C617D3 /* devmem2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = devmem2d.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/devmem2d.hpp; sourceTree = SOURCE_ROOT; };
-		3C95D13982BC8C1E0805AC35 /* contrib.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = contrib.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/contrib.hpp; sourceTree = SOURCE_ROOT; };
-		3E01850107185C9BBA56023A /* gpumat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gpumat.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpumat.hpp; sourceTree = SOURCE_ROOT; };
-		40EDB13904FDD3651C418AFB /* matrix_operations.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = matrix_operations.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/matrix_operations.hpp; sourceTree = SOURCE_ROOT; };
-		42934D7D6E581BEEE1DCDABB /* UdpSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UdpSocket.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp; sourceTree = SOURCE_ROOT; };
-		43643AA4EAA1954A3FCB4ED1 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscReceivedElements.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
-		4446B4E60742B06D7168EA31 /* eigen.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = eigen.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/eigen.hpp; sourceTree = SOURCE_ROOT; };
-		47960669F1BD536425B3E03A /* NetworkingUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtils.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp; sourceTree = SOURCE_ROOT; };
-		4A8E14966EADA303DC5DACA2 /* mat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mat.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/mat.hpp; sourceTree = SOURCE_ROOT; };
-		4B537320228265273A3CCEF9 /* flags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = flags.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/flags.h; sourceTree = SOURCE_ROOT; };
-		4B8947D85A0F279E1A42E866 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscOutboundPacketStream.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h; sourceTree = SOURCE_ROOT; };
-		4BFFF471C4CE80D74E174044 /* wimage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = wimage.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/wimage.hpp; sourceTree = SOURCE_ROOT; };
-		4C552C0CA3D228129E86E3E4 /* ofxOscParameterSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscParameterSync.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscParameterSync.h; sourceTree = SOURCE_ROOT; };
-		4CCD5B55D5288885D7E7216C /* composite_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = composite_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/composite_index.h; sourceTree = SOURCE_ROOT; };
-		4DC573B5CB340915F8628059 /* ofxKinectExtras.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxKinectExtras.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/extra/ofxKinectExtras.h; sourceTree = SOURCE_ROOT; };
-		4DE21DB01437560E7BF5A1C4 /* ofxOscSender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscSender.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscSender.cpp; sourceTree = SOURCE_ROOT; };
-		4DEE72B5564F41CA5071E568 /* keep_alive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = keep_alive.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/keep_alive.h; sourceTree = SOURCE_ROOT; };
-		4E74393A696B0E36A3826A2B /* tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlparser.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
-		50FC7E23CE127F7907F1A50E /* core_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = core_c.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/core_c.h; sourceTree = SOURCE_ROOT; };
-		5191D9C152EBDC510C6ABAF4 /* background_segm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = background_segm.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/background_segm.hpp; sourceTree = SOURCE_ROOT; };
-		5501708953D7205925A1D99C /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/config.h; sourceTree = SOURCE_ROOT; };
-		59CC11A13A38195B92D6C9D3 /* retina.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = retina.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib/retina.hpp; sourceTree = SOURCE_ROOT; };
-		5ADF122C37B52B9A18DB2128 /* ts_gtest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ts_gtest.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ts_gtest.h; sourceTree = SOURCE_ROOT; };
-		5B6297FB245347D0609607E8 /* gpu.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gpu.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/gpu.hpp; sourceTree = SOURCE_ROOT; };
-		5B7807F2A389CF83D32BAD49 /* ofxKinectExtras.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxKinectExtras.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/extra/ofxKinectExtras.cpp; sourceTree = SOURCE_ROOT; };
-		5C13EB7678742F5C1EB1FB88 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscException.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
-		5CCFA5165725E1524CB35847 /* cvwimage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cvwimage.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cvwimage.h; sourceTree = SOURCE_ROOT; };
-		62C110CFA390B147CC1C47A8 /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
-		63AC742BE288869716625243 /* registration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = registration.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/registration.h; sourceTree = SOURCE_ROOT; };
-		66FB325557B499412FDD0BC1 /* flags.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = flags.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/flags.c; sourceTree = SOURCE_ROOT; };
-		6798EA4FF30B4A7F4695E0B8 /* opencv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = opencv.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/opencv.hpp; sourceTree = SOURCE_ROOT; };
-		68C115BF9A01343DDFB82A62 /* simplex_downhill.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = simplex_downhill.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/simplex_downhill.h; sourceTree = SOURCE_ROOT; };
-		6AF547E0497080737A7B0702 /* operations.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = operations.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/operations.hpp; sourceTree = SOURCE_ROOT; };
-		6B9969D2D567C539E6C47F82 /* libfreenect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libfreenect.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include/libfreenect.h; sourceTree = SOURCE_ROOT; };
-		6CC39C97926595A7A84530FB /* legacy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = legacy.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/legacy.hpp; sourceTree = SOURCE_ROOT; };
-		6CDAC6C134EFD6DF34E6CD50 /* ground_truth.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ground_truth.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/ground_truth.h; sourceTree = SOURCE_ROOT; };
-		706D4EA15D896A724A2D54BB /* ofxBase3DVideo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBase3DVideo.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/ofxBase3DVideo.h; sourceTree = SOURCE_ROOT; };
-		71172F0C01D99EC7828A9227 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscReceiver.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
-		716A54E1BD884344824DE6C8 /* miniflann.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = miniflann.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/miniflann.hpp; sourceTree = SOURCE_ROOT; };
-		727E2DF17218431DAA37F922 /* OscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPacketListener.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h; sourceTree = SOURCE_ROOT; };
-		733D51AC687F661F8BE21154 /* any.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = any.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/any.h; sourceTree = SOURCE_ROOT; };
-		75BE57DB95B978E447C29264 /* compat.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = compat.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/compat.hpp; sourceTree = SOURCE_ROOT; };
-		763D6E165DD976F1CB57E0AF /* NetworkingUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NetworkingUtils.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h; sourceTree = SOURCE_ROOT; };
-		77F1A307C378ED026BB2F1B4 /* OscTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscTypes.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp; sourceTree = SOURCE_ROOT; };
-		780EF4A46F4869721964C0A3 /* hdf5.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = hdf5.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hdf5.h; sourceTree = SOURCE_ROOT; };
-		7A93780AA4B1AC49EAADC4DE /* core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = core.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/core.c; sourceTree = SOURCE_ROOT; };
-		7B9AE2BF6A3C1D06A90E30EF /* dist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dist.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/dist.h; sourceTree = SOURCE_ROOT; };
-		7CD0CD1FD37E90F6E36745E6 /* logger.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = logger.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/logger.h; sourceTree = SOURCE_ROOT; };
-		7F5681954759BDA3DEA3E3C7 /* cxmisc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cxmisc.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxmisc.h; sourceTree = SOURCE_ROOT; };
-		80CAEC556A330E4735FE8A15 /* libusb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libusb.h; path = "/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0/libusb.h"; sourceTree = SOURCE_ROOT; };
-		88514874FC17B52675C467B1 /* loader.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = loader.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/loader.c; sourceTree = SOURCE_ROOT; };
-		89488911FF4C1B5EC6FC9EF3 /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
-		89FF85FAD2F78E0A9FED5474 /* tilt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = tilt.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/tilt.c; sourceTree = SOURCE_ROOT; };
-		8B3039211F5948C97628BD12 /* types_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = types_c.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/types_c.h; sourceTree = SOURCE_ROOT; };
-		8BA34AA25A02577039D7D630 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscMessage.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscMessage.cpp; sourceTree = SOURCE_ROOT; };
-		8DA789FDBD197BEF8AE9BA1F /* ts.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ts.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ts/ts.hpp; sourceTree = SOURCE_ROOT; };
-		8EA9938F15AE12FD18D55A6B /* cvaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cvaux.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cvaux.h; sourceTree = SOURCE_ROOT; };
-		9386D6CE28A359E6D10BBEC1 /* highgui_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = highgui_c.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui/highgui_c.h; sourceTree = SOURCE_ROOT; };
-		951D60C4E3A0CF3CFA7986D7 /* index_testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = index_testing.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/index_testing.h; sourceTree = SOURCE_ROOT; };
-		954BD61739DEE3DC0EDAB47F /* kdtree_single_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kdtree_single_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_single_index.h; sourceTree = SOURCE_ROOT; };
-		95FE8C848A6059D24B4A9C22 /* cxeigen.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cxeigen.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxeigen.hpp; sourceTree = SOURCE_ROOT; };
-		96C4DA854E60EF73C826C374 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
-		98A8604D78C31C666C762CB3 /* general.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = general.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/general.h; sourceTree = SOURCE_ROOT; };
-		9BB43157169C328390C52A31 /* ml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ml.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml/ml.hpp; sourceTree = SOURCE_ROOT; };
-		9C02F0F05E35A2E05029FDA3 /* timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = timer.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/timer.h; sourceTree = SOURCE_ROOT; };
-		9C537DE18F135D900460AE7A /* cameras.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = cameras.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/cameras.c; sourceTree = SOURCE_ROOT; };
-		9E50E55F36A1979143C71D26 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
-		9EB3F1CCBF6AD5BE944FDBEE /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MessageMappingOscPacketListener.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h; sourceTree = SOURCE_ROOT; };
-		A104DBCEF625826C0CAFE696 /* object_factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = object_factory.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/object_factory.h; sourceTree = SOURCE_ROOT; };
-		AB71C38B18ABAA14AF2F5833 /* calib3d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = calib3d.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d/calib3d.hpp; sourceTree = SOURCE_ROOT; };
-		ABDAC54AC5CC73F01A26C929 /* nn_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = nn_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/nn_index.h; sourceTree = SOURCE_ROOT; };
-		ABF127D3EEC263DDABF704C1 /* stream_accessor.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stream_accessor.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu/stream_accessor.hpp; sourceTree = SOURCE_ROOT; };
-		AD3FBF46C5332FD82E67EECF /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
-		AD5DDB7F19A8A1BB00061D24 /* ETF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETF.h; sourceTree = "<group>"; };
-		AD5DDB8019A8A1BB00061D24 /* fdog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fdog.h; sourceTree = "<group>"; };
-		AD5DDB8119A8A1BB00061D24 /* imatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imatrix.h; sourceTree = "<group>"; };
-		AD5DDB8219A8A1BB00061D24 /* myvec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myvec.h; sourceTree = "<group>"; };
-		AD5DDB8419A8A1BB00061D24 /* ETF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ETF.cpp; sourceTree = "<group>"; };
-		AD5DDB8519A8A1BB00061D24 /* fdog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fdog.cpp; sourceTree = "<group>"; };
-		AD5DDB8919A8A1BB00061D24 /* Calibration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calibration.h; sourceTree = "<group>"; };
-		AD5DDB8A19A8A1BB00061D24 /* ContourFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContourFinder.h; sourceTree = "<group>"; };
-		AD5DDB8B19A8A1BB00061D24 /* Distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Distance.h; sourceTree = "<group>"; };
-		AD5DDB8C19A8A1BB00061D24 /* Flow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flow.h; sourceTree = "<group>"; };
-		AD5DDB8D19A8A1BB00061D24 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
-		AD5DDB8E19A8A1BB00061D24 /* Kalman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kalman.h; sourceTree = "<group>"; };
-		AD5DDB8F19A8A1BB00061D24 /* ObjectFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectFinder.h; sourceTree = "<group>"; };
-		AD5DDB9019A8A1BB00061D24 /* RunningBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunningBackground.h; sourceTree = "<group>"; };
-		AD5DDB9119A8A1BB00061D24 /* Tracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
-		AD5DDB9219A8A1BB00061D24 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		AD5DDB9319A8A1BB00061D24 /* Wrappers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wrappers.h; sourceTree = "<group>"; };
-		AD5DDB9519A8A1BB00061D24 /* Calibration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calibration.cpp; sourceTree = "<group>"; };
-		AD5DDB9619A8A1BB00061D24 /* ContourFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContourFinder.cpp; sourceTree = "<group>"; };
-		AD5DDB9719A8A1BB00061D24 /* Distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Distance.cpp; sourceTree = "<group>"; };
-		AD5DDB9819A8A1BB00061D24 /* Flow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flow.cpp; sourceTree = "<group>"; };
-		AD5DDB9919A8A1BB00061D24 /* Helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Helpers.cpp; sourceTree = "<group>"; };
-		AD5DDB9A19A8A1BB00061D24 /* Kalman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Kalman.cpp; sourceTree = "<group>"; };
-		AD5DDB9B19A8A1BB00061D24 /* ObjectFinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectFinder.cpp; sourceTree = "<group>"; };
-		AD5DDB9C19A8A1BB00061D24 /* RunningBackground.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RunningBackground.cpp; sourceTree = "<group>"; };
-		AD5DDB9D19A8A1BB00061D24 /* Tracker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cpp; sourceTree = "<group>"; };
-		AD5DDB9E19A8A1BB00061D24 /* Utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
-		AD5DDB9F19A8A1BB00061D24 /* Wrappers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wrappers.cpp; sourceTree = "<group>"; };
-		AD5DDBA119A8A1BB00061D24 /* ofxCv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxCv.h; sourceTree = "<group>"; };
-		AD7EB62319B722B9000579BF /* ofxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUI.h; sourceTree = "<group>"; };
-		AD7EB62419B722B9000579BF /* ofxUI2DGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUI2DGraph.cpp; sourceTree = "<group>"; };
-		AD7EB62519B722B9000579BF /* ofxUI2DGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUI2DGraph.h; sourceTree = "<group>"; };
-		AD7EB62619B722B9000579BF /* ofxUI2DPad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUI2DPad.cpp; sourceTree = "<group>"; };
-		AD7EB62719B722B9000579BF /* ofxUI2DPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUI2DPad.h; sourceTree = "<group>"; };
-		AD7EB62819B722B9000579BF /* ofxUIBaseDraws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIBaseDraws.cpp; sourceTree = "<group>"; };
-		AD7EB62919B722B9000579BF /* ofxUIBaseDraws.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIBaseDraws.h; sourceTree = "<group>"; };
-		AD7EB62A19B722B9000579BF /* ofxUIBiLabelSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIBiLabelSlider.cpp; sourceTree = "<group>"; };
-		AD7EB62B19B722B9000579BF /* ofxUIBiLabelSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIBiLabelSlider.h; sourceTree = "<group>"; };
-		AD7EB62C19B722B9000579BF /* ofxUIButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIButton.cpp; sourceTree = "<group>"; };
-		AD7EB62D19B722B9000579BF /* ofxUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIButton.h; sourceTree = "<group>"; };
-		AD7EB62E19B722B9000579BF /* ofxUICanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUICanvas.cpp; sourceTree = "<group>"; };
-		AD7EB62F19B722B9000579BF /* ofxUICanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUICanvas.h; sourceTree = "<group>"; };
-		AD7EB63019B722B9000579BF /* ofxUICircleSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUICircleSlider.cpp; sourceTree = "<group>"; };
-		AD7EB63119B722B9000579BF /* ofxUICircleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUICircleSlider.h; sourceTree = "<group>"; };
-		AD7EB63219B722B9000579BF /* ofxUIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIDefines.h; sourceTree = "<group>"; };
-		AD7EB63319B722B9000579BF /* ofxUIDragableLabelButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIDragableLabelButton.cpp; sourceTree = "<group>"; };
-		AD7EB63419B722B9000579BF /* ofxUIDragableLabelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIDragableLabelButton.h; sourceTree = "<group>"; };
-		AD7EB63519B722B9000579BF /* ofxUIDropDownList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIDropDownList.cpp; sourceTree = "<group>"; };
-		AD7EB63619B722B9000579BF /* ofxUIDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIDropDownList.h; sourceTree = "<group>"; };
-		AD7EB63719B722B9000579BF /* ofxUIEventArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIEventArgs.cpp; sourceTree = "<group>"; };
-		AD7EB63819B722B9000579BF /* ofxUIEventArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIEventArgs.h; sourceTree = "<group>"; };
-		AD7EB63919B722B9000579BF /* ofxUIFPS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIFPS.cpp; sourceTree = "<group>"; };
-		AD7EB63A19B722B9000579BF /* ofxUIFPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIFPS.h; sourceTree = "<group>"; };
-		AD7EB63B19B722B9000579BF /* ofxUIFPSSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIFPSSlider.cpp; sourceTree = "<group>"; };
-		AD7EB63C19B722B9000579BF /* ofxUIFPSSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIFPSSlider.h; sourceTree = "<group>"; };
-		AD7EB63D19B722B9000579BF /* ofxUIImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIImage.cpp; sourceTree = "<group>"; };
-		AD7EB63E19B722B9000579BF /* ofxUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIImage.h; sourceTree = "<group>"; };
-		AD7EB63F19B722B9000579BF /* ofxUIImageButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIImageButton.cpp; sourceTree = "<group>"; };
-		AD7EB64019B722B9000579BF /* ofxUIImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIImageButton.h; sourceTree = "<group>"; };
-		AD7EB64119B722B9000579BF /* ofxUIImageSampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIImageSampler.cpp; sourceTree = "<group>"; };
-		AD7EB64219B722B9000579BF /* ofxUIImageSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIImageSampler.h; sourceTree = "<group>"; };
-		AD7EB64319B722B9000579BF /* ofxUIImageSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIImageSlider.cpp; sourceTree = "<group>"; };
-		AD7EB64419B722B9000579BF /* ofxUIImageSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIImageSlider.h; sourceTree = "<group>"; };
-		AD7EB64519B722B9000579BF /* ofxUIImageToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIImageToggle.cpp; sourceTree = "<group>"; };
-		AD7EB64619B722B9000579BF /* ofxUIImageToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIImageToggle.h; sourceTree = "<group>"; };
-		AD7EB64719B722B9000579BF /* ofxUILabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUILabel.cpp; sourceTree = "<group>"; };
-		AD7EB64819B722B9000579BF /* ofxUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUILabel.h; sourceTree = "<group>"; };
-		AD7EB64919B722B9000579BF /* ofxUILabelButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUILabelButton.cpp; sourceTree = "<group>"; };
-		AD7EB64A19B722B9000579BF /* ofxUILabelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUILabelButton.h; sourceTree = "<group>"; };
-		AD7EB64B19B722B9000579BF /* ofxUILabelToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUILabelToggle.cpp; sourceTree = "<group>"; };
-		AD7EB64C19B722B9000579BF /* ofxUILabelToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUILabelToggle.h; sourceTree = "<group>"; };
-		AD7EB64D19B722B9000579BF /* ofxUIMinimalSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIMinimalSlider.cpp; sourceTree = "<group>"; };
-		AD7EB64E19B722B9000579BF /* ofxUIMinimalSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIMinimalSlider.h; sourceTree = "<group>"; };
-		AD7EB64F19B722B9000579BF /* ofxUIMovingGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIMovingGraph.cpp; sourceTree = "<group>"; };
-		AD7EB65019B722B9000579BF /* ofxUIMovingGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIMovingGraph.h; sourceTree = "<group>"; };
-		AD7EB65119B722B9000579BF /* ofxUIMultiImageButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIMultiImageButton.cpp; sourceTree = "<group>"; };
-		AD7EB65219B722B9000579BF /* ofxUIMultiImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIMultiImageButton.h; sourceTree = "<group>"; };
-		AD7EB65319B722B9000579BF /* ofxUIMultiImageToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIMultiImageToggle.cpp; sourceTree = "<group>"; };
-		AD7EB65419B722B9000579BF /* ofxUIMultiImageToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIMultiImageToggle.h; sourceTree = "<group>"; };
-		AD7EB65519B722B9000579BF /* ofxUINumberDialer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUINumberDialer.cpp; sourceTree = "<group>"; };
-		AD7EB65619B722B9000579BF /* ofxUINumberDialer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUINumberDialer.h; sourceTree = "<group>"; };
-		AD7EB65719B722B9000579BF /* ofxUIOFWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIOFWrapper.h; sourceTree = "<group>"; };
-		AD7EB65819B722B9000579BF /* ofxUIRadio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIRadio.cpp; sourceTree = "<group>"; };
-		AD7EB65919B722B9000579BF /* ofxUIRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIRadio.h; sourceTree = "<group>"; };
-		AD7EB65A19B722B9000579BF /* ofxUIRangeSlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIRangeSlider.cpp; sourceTree = "<group>"; };
-		AD7EB65B19B722B9000579BF /* ofxUIRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIRangeSlider.h; sourceTree = "<group>"; };
-		AD7EB65C19B722B9000579BF /* ofxUIRectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIRectangle.cpp; sourceTree = "<group>"; };
-		AD7EB65D19B722B9000579BF /* ofxUIRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIRectangle.h; sourceTree = "<group>"; };
-		AD7EB65E19B722B9000579BF /* ofxUIRotarySlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIRotarySlider.cpp; sourceTree = "<group>"; };
-		AD7EB65F19B722B9000579BF /* ofxUIRotarySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIRotarySlider.h; sourceTree = "<group>"; };
-		AD7EB66019B722B9000579BF /* ofxUIScrollableCanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIScrollableCanvas.cpp; sourceTree = "<group>"; };
-		AD7EB66119B722B9000579BF /* ofxUIScrollableCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIScrollableCanvas.h; sourceTree = "<group>"; };
-		AD7EB66219B722B9000579BF /* ofxUISlider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUISlider.cpp; sourceTree = "<group>"; };
-		AD7EB66319B722B9000579BF /* ofxUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUISlider.h; sourceTree = "<group>"; };
-		AD7EB66419B722B9000579BF /* ofxUISortableList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUISortableList.cpp; sourceTree = "<group>"; };
-		AD7EB66519B722B9000579BF /* ofxUISortableList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUISortableList.h; sourceTree = "<group>"; };
-		AD7EB66619B722B9000579BF /* ofxUISpacer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUISpacer.cpp; sourceTree = "<group>"; };
-		AD7EB66719B722B9000579BF /* ofxUISpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUISpacer.h; sourceTree = "<group>"; };
-		AD7EB66819B722B9000579BF /* ofxUISpectrum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUISpectrum.cpp; sourceTree = "<group>"; };
-		AD7EB66919B722B9000579BF /* ofxUISpectrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUISpectrum.h; sourceTree = "<group>"; };
-		AD7EB66A19B722B9000579BF /* ofxUISuperCanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUISuperCanvas.cpp; sourceTree = "<group>"; };
-		AD7EB66B19B722B9000579BF /* ofxUISuperCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUISuperCanvas.h; sourceTree = "<group>"; };
-		AD7EB66C19B722B9000579BF /* ofxUITabBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUITabBar.cpp; sourceTree = "<group>"; };
-		AD7EB66D19B722B9000579BF /* ofxUITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUITabBar.h; sourceTree = "<group>"; };
-		AD7EB66E19B722B9000579BF /* ofxUITextArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUITextArea.cpp; sourceTree = "<group>"; };
-		AD7EB66F19B722B9000579BF /* ofxUITextArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUITextArea.h; sourceTree = "<group>"; };
-		AD7EB67019B722B9000579BF /* ofxUITextInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUITextInput.cpp; sourceTree = "<group>"; };
-		AD7EB67119B722B9000579BF /* ofxUITextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUITextInput.h; sourceTree = "<group>"; };
-		AD7EB67219B722B9000579BF /* ofxUIToggle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIToggle.cpp; sourceTree = "<group>"; };
-		AD7EB67319B722B9000579BF /* ofxUIToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIToggle.h; sourceTree = "<group>"; };
-		AD7EB67419B722B9000579BF /* ofxUIToggleMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIToggleMatrix.cpp; sourceTree = "<group>"; };
-		AD7EB67519B722B9000579BF /* ofxUIToggleMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIToggleMatrix.h; sourceTree = "<group>"; };
-		AD7EB67619B722B9000579BF /* ofxUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIUtils.h; sourceTree = "<group>"; };
-		AD7EB67719B722B9000579BF /* ofxUIValuePlotter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIValuePlotter.cpp; sourceTree = "<group>"; };
-		AD7EB67819B722B9000579BF /* ofxUIValuePlotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIValuePlotter.h; sourceTree = "<group>"; };
-		AD7EB67919B722B9000579BF /* ofxUIWaveform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIWaveform.cpp; sourceTree = "<group>"; };
-		AD7EB67A19B722B9000579BF /* ofxUIWaveform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIWaveform.h; sourceTree = "<group>"; };
-		AD7EB67B19B722B9000579BF /* ofxUIWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIWidget.cpp; sourceTree = "<group>"; };
-		AD7EB67C19B722B9000579BF /* ofxUIWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIWidget.h; sourceTree = "<group>"; };
-		AD7EB67D19B722B9000579BF /* ofxUIWidgets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIWidgets.h; sourceTree = "<group>"; };
-		AD7EB67E19B722B9000579BF /* ofxUIWidgetWithLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxUIWidgetWithLabel.cpp; sourceTree = "<group>"; };
-		AD7EB67F19B722B9000579BF /* ofxUIWidgetWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIWidgetWithLabel.h; sourceTree = "<group>"; };
-		AD7EB68019B722B9000579BF /* ofxUIWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUIWrapper.h; sourceTree = "<group>"; };
-		B07D2ADC50DDFDA87B57C68B /* cxcore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cxcore.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cxcore.h; sourceTree = SOURCE_ROOT; };
-		B0AA9880D068D06622052948 /* OscHostEndianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscHostEndianness.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h; sourceTree = SOURCE_ROOT; };
-		B13E9DF78430C7A853C69C40 /* random.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = random.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/random.h; sourceTree = SOURCE_ROOT; };
-		B25D12FC9C8DA0CCFCEC9080 /* ofxOscReceiver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscReceiver.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h; sourceTree = SOURCE_ROOT; };
-		B34AA3287D612ADB2099F627 /* flann_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = flann_base.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/flann_base.hpp; sourceTree = SOURCE_ROOT; };
-		B4D9C6795159B12D684272DF /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
-		B5A9C508BFCE016B2500E162 /* params.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = params.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/params.h; sourceTree = SOURCE_ROOT; };
-		B65454ADFE2D130011D3C02E /* kmeans_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kmeans_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kmeans_index.h; sourceTree = SOURCE_ROOT; };
-		B7BA95C211BFD5953AC4E1EB /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscParameterSync.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscParameterSync.cpp; sourceTree = SOURCE_ROOT; };
-		BAEB53A179355A638B1947D6 /* kdtree_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kdtree_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/kdtree_index.h; sourceTree = SOURCE_ROOT; };
-		BB9770A9D46276C70C17759E /* tracking.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tracking.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/tracking.hpp; sourceTree = SOURCE_ROOT; };
-		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /Users/Szymon/Documents/Frameworks/openFrameworks/libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
-		BBEE4A7D695655C0E93676C7 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscBundle.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscBundle.cpp; sourceTree = SOURCE_ROOT; };
-		BEF399B26B78C84327C92D8E /* blobtrack.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = blobtrack.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/blobtrack.hpp; sourceTree = SOURCE_ROOT; };
-		C11C370E40EACBE6A568825F /* hierarchical_clustering_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = hierarchical_clustering_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/hierarchical_clustering_index.h; sourceTree = SOURCE_ROOT; };
-		C22F3B72EA47556D86FD13C4 /* ofxOscMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscMessage.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h; sourceTree = SOURCE_ROOT; };
-		C5190BF7F6F1FE5030271A94 /* cv.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cv.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cv.hpp; sourceTree = SOURCE_ROOT; };
-		CA6E83137113C8830E368381 /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
-		D0FA4E5C06B47BFF4632F21B /* imgproc_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imgproc_c.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc_c.h; sourceTree = SOURCE_ROOT; };
-		D117EB4F3A0F8FE74D8DCD96 /* imgproc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = imgproc.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/imgproc.hpp; sourceTree = SOURCE_ROOT; };
-		D1562606FE32AEBA15673FB2 /* result_set.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = result_set.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/result_set.h; sourceTree = SOURCE_ROOT; };
-		D43E73FD5811746E756E1C64 /* libfreenect-audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "libfreenect-audio.h"; path = "/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include/libfreenect-audio.h"; sourceTree = SOURCE_ROOT; };
-		D5201033F78A1B41FA447E29 /* video.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = video.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video/video.hpp; sourceTree = SOURCE_ROOT; };
-		D82C12080A9F76FE0F770E9E /* types_c.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = types_c.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc/types_c.h; sourceTree = SOURCE_ROOT; };
-		DA9CD657B432663B994E1865 /* libfreenect-registration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "libfreenect-registration.h"; path = "/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include/libfreenect-registration.h"; sourceTree = SOURCE_ROOT; };
-		DB6A9E385EE816EA002561D5 /* highgui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = highgui.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/highgui.h; sourceTree = SOURCE_ROOT; };
-		DCABEBA9A46E55B67A66BBC9 /* loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = loader.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/loader.h; sourceTree = SOURCE_ROOT; };
-		DD8C60E9B751AADF229B95B1 /* ofxOscBundle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscBundle.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h; sourceTree = SOURCE_ROOT; };
-		DEBF5258ACE42A28D14791F3 /* version.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = version.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/version.hpp; sourceTree = SOURCE_ROOT; };
-		E14503757DBF175AADFC36F3 /* ofxOscArg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscArg.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscArg.h; sourceTree = SOURCE_ROOT; };
-		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = /Users/Szymon/Documents/Frameworks/openFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		046483EA2E4EABBA22B0ED20 /* usb_libusb10.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = usb_libusb10.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/usb_libusb10.h; sourceTree = SOURCE_ROOT; };
+		051DF19F2DEC34E9A77870BB /* OscOutboundPacketStream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscOutboundPacketStream.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp; sourceTree = SOURCE_ROOT; };
+		0D74400762B269820917667D /* ofxKinect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxKinect.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/ofxKinect.cpp; sourceTree = SOURCE_ROOT; };
+		0E604D43C157691DC6296B6F /* registration.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = registration.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/registration.c; sourceTree = SOURCE_ROOT; };
+		15973FECEFEC9810B5E5DF42 /* ofxOscSender.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscSender.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscSender.h; sourceTree = SOURCE_ROOT; };
+		179BFC88056FA5E60CE45BF7 /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
+		18146761CAEFF71E5AD0417D /* usb_libusb10.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = usb_libusb10.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/usb_libusb10.c; sourceTree = SOURCE_ROOT; };
+		1D73169EE8E8EB7873F271E0 /* TimerListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TimerListener.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h; sourceTree = SOURCE_ROOT; };
+		28EF703D8BA48CF94C6BFCA3 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
+		29D5C56F7B8A70579771B295 /* keep_alive.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = keep_alive.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/keep_alive.c; sourceTree = SOURCE_ROOT; };
+		2B10698EAE76E3B25B7F952E /* OscTypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscTypes.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h; sourceTree = SOURCE_ROOT; };
+		2C1DFE874A102617BCCFB8C5 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
+		2EA3D9C60D9CF94991767A5B /* cameras.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cameras.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/cameras.h; sourceTree = SOURCE_ROOT; };
+		349A3456037BD28CD8707D03 /* ofxKinect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxKinect.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/ofxKinect.h; sourceTree = SOURCE_ROOT; };
+		42934D7D6E581BEEE1DCDABB /* UdpSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = UdpSocket.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp; sourceTree = SOURCE_ROOT; };
+		43643AA4EAA1954A3FCB4ED1 /* OscReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscReceivedElements.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
+		47960669F1BD536425B3E03A /* NetworkingUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkingUtils.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp; sourceTree = SOURCE_ROOT; };
+		4B537320228265273A3CCEF9 /* flags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = flags.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/flags.h; sourceTree = SOURCE_ROOT; };
+		4B8947D85A0F279E1A42E866 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscOutboundPacketStream.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h; sourceTree = SOURCE_ROOT; };
+		4C552C0CA3D228129E86E3E4 /* ofxOscParameterSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscParameterSync.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscParameterSync.h; sourceTree = SOURCE_ROOT; };
+		4DC573B5CB340915F8628059 /* ofxKinectExtras.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxKinectExtras.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/extra/ofxKinectExtras.h; sourceTree = SOURCE_ROOT; };
+		4DE21DB01437560E7BF5A1C4 /* ofxOscSender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscSender.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscSender.cpp; sourceTree = SOURCE_ROOT; };
+		4DEE72B5564F41CA5071E568 /* keep_alive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = keep_alive.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/keep_alive.h; sourceTree = SOURCE_ROOT; };
+		4E74393A696B0E36A3826A2B /* tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlparser.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		5B7807F2A389CF83D32BAD49 /* ofxKinectExtras.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxKinectExtras.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/extra/ofxKinectExtras.cpp; sourceTree = SOURCE_ROOT; };
+		5C13EB7678742F5C1EB1FB88 /* OscException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscException.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscException.h; sourceTree = SOURCE_ROOT; };
+		62C110CFA390B147CC1C47A8 /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
+		63AC742BE288869716625243 /* registration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = registration.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/registration.h; sourceTree = SOURCE_ROOT; };
+		66FB325557B499412FDD0BC1 /* flags.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = flags.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/flags.c; sourceTree = SOURCE_ROOT; };
+		6B9969D2D567C539E6C47F82 /* libfreenect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libfreenect.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include/libfreenect.h; sourceTree = SOURCE_ROOT; };
+		706D4EA15D896A724A2D54BB /* ofxBase3DVideo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBase3DVideo.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/ofxBase3DVideo.h; sourceTree = SOURCE_ROOT; };
+		71172F0C01D99EC7828A9227 /* ofxOscReceiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscReceiver.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.cpp; sourceTree = SOURCE_ROOT; };
+		727E2DF17218431DAA37F922 /* OscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPacketListener.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h; sourceTree = SOURCE_ROOT; };
+		763D6E165DD976F1CB57E0AF /* NetworkingUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NetworkingUtils.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h; sourceTree = SOURCE_ROOT; };
+		77F1A307C378ED026BB2F1B4 /* OscTypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscTypes.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp; sourceTree = SOURCE_ROOT; };
+		7A93780AA4B1AC49EAADC4DE /* core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = core.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/core.c; sourceTree = SOURCE_ROOT; };
+		80CAEC556A330E4735FE8A15 /* libusb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libusb.h; path = "/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0/libusb.h"; sourceTree = SOURCE_ROOT; };
+		88514874FC17B52675C467B1 /* loader.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = loader.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/loader.c; sourceTree = SOURCE_ROOT; };
+		89488911FF4C1B5EC6FC9EF3 /* UdpSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UdpSocket.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h; sourceTree = SOURCE_ROOT; };
+		89FF85FAD2F78E0A9FED5474 /* tilt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = tilt.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/tilt.c; sourceTree = SOURCE_ROOT; };
+		8BA34AA25A02577039D7D630 /* ofxOscMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscMessage.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscMessage.cpp; sourceTree = SOURCE_ROOT; };
+		96C4DA854E60EF73C826C374 /* OscPrintReceivedElements.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = OscPrintReceivedElements.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp; sourceTree = SOURCE_ROOT; };
+		9C537DE18F135D900460AE7A /* cameras.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = cameras.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/cameras.c; sourceTree = SOURCE_ROOT; };
+		9E50E55F36A1979143C71D26 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
+		9EB3F1CCBF6AD5BE944FDBEE /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MessageMappingOscPacketListener.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h; sourceTree = SOURCE_ROOT; };
+		AD3FBF46C5332FD82E67EECF /* ofxOsc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOsc.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOsc.h; sourceTree = SOURCE_ROOT; };
+		ADAE47E91BADBC38000EFEB2 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = ../../../Code/Frameworks/openFrameworks/addons/ofxCv/libs; sourceTree = "<group>"; };
+		ADAE47EA1BADBC38000EFEB2 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../../Code/Frameworks/openFrameworks/addons/ofxCv/src; sourceTree = "<group>"; };
+		ADE13F571B6E5B8D00D2D844 /* openFrameworks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = openFrameworks.a; path = "../../../Code/Frameworks/openFrameworks OSX/libs/openFrameworksCompiled/lib/osx/openFrameworks.a"; sourceTree = "<group>"; };
+		B0AA9880D068D06622052948 /* OscHostEndianness.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscHostEndianness.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h; sourceTree = SOURCE_ROOT; };
+		B25D12FC9C8DA0CCFCEC9080 /* ofxOscReceiver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscReceiver.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscReceiver.h; sourceTree = SOURCE_ROOT; };
+		B4D9C6795159B12D684272DF /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
+		B7BA95C211BFD5953AC4E1EB /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscParameterSync.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscParameterSync.cpp; sourceTree = SOURCE_ROOT; };
+		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		BBEE4A7D695655C0E93676C7 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscBundle.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscBundle.cpp; sourceTree = SOURCE_ROOT; };
+		C22F3B72EA47556D86FD13C4 /* ofxOscMessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscMessage.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscMessage.h; sourceTree = SOURCE_ROOT; };
+		CA6E83137113C8830E368381 /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
+		D43E73FD5811746E756E1C64 /* libfreenect-audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "libfreenect-audio.h"; path = "/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include/libfreenect-audio.h"; sourceTree = SOURCE_ROOT; };
+		DA9CD657B432663B994E1865 /* libfreenect-registration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "libfreenect-registration.h"; path = "/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include/libfreenect-registration.h"; sourceTree = SOURCE_ROOT; };
+		DCABEBA9A46E55B67A66BBC9 /* loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = loader.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/loader.h; sourceTree = SOURCE_ROOT; };
+		DD8C60E9B751AADF229B95B1 /* ofxOscBundle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscBundle.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscBundle.h; sourceTree = SOURCE_ROOT; };
+		E14503757DBF175AADFC36F3 /* ofxOscArg.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxOscArg.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src/ofxOscArg.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
 		E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
@@ -420,20 +165,16 @@
 		E4C2424410CC5A17004149E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		E4C2424510CC5A17004149E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = /Users/Szymon/Documents/Frameworks/openFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		E7E077E415D3B63C0020DFD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		E7E077E715D3B6510020DFD4 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		E7F985F515E0DE99003869B5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
-		E9A1CAE26EE54C07D51A864C /* IpEndpointName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = IpEndpointName.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp; sourceTree = SOURCE_ROOT; };
-		E9CDD31E0463646B2A034331 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
-		EF0C83687E251FC89D9D32D4 /* audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = audio.c; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/audio.c; sourceTree = SOURCE_ROOT; };
-		F12AAB2C59335FFD3A540365 /* internal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = internal.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core/internal.hpp; sourceTree = SOURCE_ROOT; };
-		F7878DEBC6C0A047BF6DAFC7 /* streams.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = streams.hpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy/streams.hpp; sourceTree = SOURCE_ROOT; };
-		FA34775102C865F8856E2331 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
-		FAC0467D631CA0F883F78242 /* cv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cv.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv/cv.h; sourceTree = SOURCE_ROOT; };
-		FB194382E3E0C96A7D9FB4D4 /* linear_index.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = linear_index.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann/linear_index.h; sourceTree = SOURCE_ROOT; };
-		FE63F6F54361BA2086DF3DCD /* freenect_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = freenect_internal.h; path = /Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/freenect_internal.h; sourceTree = SOURCE_ROOT; };
+		E9A1CAE26EE54C07D51A864C /* IpEndpointName.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = IpEndpointName.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp; sourceTree = SOURCE_ROOT; };
+		E9CDD31E0463646B2A034331 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
+		EF0C83687E251FC89D9D32D4 /* audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = audio.c; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/audio.c; sourceTree = SOURCE_ROOT; };
+		FA34775102C865F8856E2331 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
+		FE63F6F54361BA2086DF3DCD /* freenect_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = freenect_internal.h; path = /Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src/freenect_internal.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,10 +182,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE13F581B6E5B8D00D2D844 /* openFrameworks.a in Frameworks */,
 				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
 				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
-				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
 				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
 				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
@@ -463,102 +204,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0478E60892BF4C0731AE0763 /* ts */ = {
-			isa = PBXGroup;
-			children = (
-				8DA789FDBD197BEF8AE9BA1F /* ts.hpp */,
-				5ADF122C37B52B9A18DB2128 /* ts_gtest.h */,
-			);
-			name = ts;
-			sourceTree = "<group>";
-		};
-		0F07FE174552DEF007BF5AD5 /* opencv2 */ = {
-			isa = PBXGroup;
-			children = (
-				428EB732FD42504F37BCA78A /* calib3d */,
-				170C3384C93B182490DDC9CC /* contrib */,
-				A5A3A2F98919E2243C73199C /* core */,
-				86FEC009E2721D0FB23338D7 /* features2d */,
-				1E45F8C3CCFF6847BFF957AA /* flann */,
-				5236346776DB8ECC4B121CA3 /* gpu */,
-				9C99831C330874C2B245AB48 /* highgui */,
-				3E44059DCBC2444D65660B9C /* imgproc */,
-				961A625BD21068033782887C /* legacy */,
-				0F288FD421D474F4AE2684D3 /* ml */,
-				D0CAFE48EE488EEED9149670 /* objdetect */,
-				6798EA4FF30B4A7F4695E0B8 /* opencv.hpp */,
-				0478E60892BF4C0731AE0763 /* ts */,
-				C58CC92A5283B95AA31D50FB /* video */,
-			);
-			name = opencv2;
-			sourceTree = "<group>";
-		};
-		0F288FD421D474F4AE2684D3 /* ml */ = {
-			isa = PBXGroup;
-			children = (
-				9BB43157169C328390C52A31 /* ml.hpp */,
-			);
-			name = ml;
-			sourceTree = "<group>";
-		};
-		170C3384C93B182490DDC9CC /* contrib */ = {
-			isa = PBXGroup;
-			children = (
-				3C95D13982BC8C1E0805AC35 /* contrib.hpp */,
-				59CC11A13A38195B92D6C9D3 /* retina.hpp */,
-			);
-			name = contrib;
-			sourceTree = "<group>";
-		};
 		1AE6862ED862CA18468E0CCD /* include */ = {
 			isa = PBXGroup;
 			children = (
 				2C171637C399A50881F147E9 /* libusb-1.0 */,
 			);
 			name = include;
-			sourceTree = "<group>";
-		};
-		1E45F8C3CCFF6847BFF957AA /* flann */ = {
-			isa = PBXGroup;
-			children = (
-				25344C163A163005916B8377 /* all_indices.h */,
-				022CF20C83DC94EDD8CB3DA4 /* allocator.h */,
-				733D51AC687F661F8BE21154 /* any.h */,
-				1062C044690C9250B0E0ACD2 /* autotuned_index.h */,
-				4CCD5B55D5288885D7E7216C /* composite_index.h */,
-				5501708953D7205925A1D99C /* config.h */,
-				2DD9258547DC42633CB65127 /* defines.h */,
-				7B9AE2BF6A3C1D06A90E30EF /* dist.h */,
-				17C711BEEE3EF02F0A19BBE4 /* dummy.h */,
-				345CFA84320FA14DF1E77E26 /* dynamic_bitset.h */,
-				3023D4AFA82722B4C377F59A /* flann.hpp */,
-				B34AA3287D612ADB2099F627 /* flann_base.hpp */,
-				98A8604D78C31C666C762CB3 /* general.h */,
-				6CDAC6C134EFD6DF34E6CD50 /* ground_truth.h */,
-				780EF4A46F4869721964C0A3 /* hdf5.h */,
-				152E4CEC0B2AC099FFDC2BC8 /* heap.h */,
-				C11C370E40EACBE6A568825F /* hierarchical_clustering_index.h */,
-				951D60C4E3A0CF3CFA7986D7 /* index_testing.h */,
-				BAEB53A179355A638B1947D6 /* kdtree_index.h */,
-				954BD61739DEE3DC0EDAB47F /* kdtree_single_index.h */,
-				B65454ADFE2D130011D3C02E /* kmeans_index.h */,
-				FB194382E3E0C96A7D9FB4D4 /* linear_index.h */,
-				7CD0CD1FD37E90F6E36745E6 /* logger.h */,
-				0EF62E85A2993408B9F77CEB /* lsh_index.h */,
-				1DF918FAC2534D3ACEB6FACC /* lsh_table.h */,
-				0B5319AA213FEAC8712FA90A /* matrix.h */,
-				716A54E1BD884344824DE6C8 /* miniflann.hpp */,
-				ABDAC54AC5CC73F01A26C929 /* nn_index.h */,
-				A104DBCEF625826C0CAFE696 /* object_factory.h */,
-				B5A9C508BFCE016B2500E162 /* params.h */,
-				B13E9DF78430C7A853C69C40 /* random.h */,
-				D1562606FE32AEBA15673FB2 /* result_set.h */,
-				1ACBECE6027D88091F76A80C /* sampling.h */,
-				134E76616D09C681A844AE7E /* saving.h */,
-				68C115BF9A01343DDFB82A62 /* simplex_downhill.h */,
-				9C02F0F05E35A2E05029FDA3 /* timer.h */,
-			);
-			name = flann;
 			sourceTree = "<group>";
 		};
 		1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */ = {
@@ -612,36 +263,6 @@
 				86D2677079A3AF4A5A88E29A /* oscpack */,
 			);
 			name = libs;
-			sourceTree = "<group>";
-		};
-		3E44059DCBC2444D65660B9C /* imgproc */ = {
-			isa = PBXGroup;
-			children = (
-				D117EB4F3A0F8FE74D8DCD96 /* imgproc.hpp */,
-				D0FA4E5C06B47BFF4632F21B /* imgproc_c.h */,
-				D82C12080A9F76FE0F770E9E /* types_c.h */,
-			);
-			name = imgproc;
-			sourceTree = "<group>";
-		};
-		428EB732FD42504F37BCA78A /* calib3d */ = {
-			isa = PBXGroup;
-			children = (
-				AB71C38B18ABAA14AF2F5833 /* calib3d.hpp */,
-			);
-			name = calib3d;
-			sourceTree = "<group>";
-		};
-		5236346776DB8ECC4B121CA3 /* gpu */ = {
-			isa = PBXGroup;
-			children = (
-				3AE8BE22BDA243B216C617D3 /* devmem2d.hpp */,
-				5B6297FB245347D0609607E8 /* gpu.hpp */,
-				3E01850107185C9BBA56023A /* gpumat.hpp */,
-				40EDB13904FDD3651C418AFB /* matrix_operations.hpp */,
-				ABF127D3EEC263DDABF704C1 /* stream_accessor.hpp */,
-			);
-			name = gpu;
 			sourceTree = "<group>";
 		};
 		641362CA659FAFEE4E81001B /* posix */ = {
@@ -700,49 +321,12 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		737B033AA777B67BA4F8F4D2 /* opencv */ = {
-			isa = PBXGroup;
-			children = (
-				FAC0467D631CA0F883F78242 /* cv.h */,
-				C5190BF7F6F1FE5030271A94 /* cv.hpp */,
-				8EA9938F15AE12FD18D55A6B /* cvaux.h */,
-				1F9CB05F04682C9E55DCDCB5 /* cvaux.hpp */,
-				5CCFA5165725E1524CB35847 /* cvwimage.h */,
-				B07D2ADC50DDFDA87B57C68B /* cxcore.h */,
-				0B33B95F00675114B3976B90 /* cxcore.hpp */,
-				95FE8C848A6059D24B4A9C22 /* cxeigen.hpp */,
-				7F5681954759BDA3DEA3E3C7 /* cxmisc.h */,
-				DB6A9E385EE816EA002561D5 /* highgui.h */,
-				05ABA5CF118FB72C5CB23BEC /* ml.h */,
-			);
-			name = opencv;
-			sourceTree = "<group>";
-		};
 		86D2677079A3AF4A5A88E29A /* oscpack */ = {
 			isa = PBXGroup;
 			children = (
 				D27B2221A225CA523C019676 /* src */,
 			);
 			name = oscpack;
-			sourceTree = "<group>";
-		};
-		86FEC009E2721D0FB23338D7 /* features2d */ = {
-			isa = PBXGroup;
-			children = (
-				160A8AFFC20C538AF94A38AD /* features2d.hpp */,
-			);
-			name = features2d;
-			sourceTree = "<group>";
-		};
-		961A625BD21068033782887C /* legacy */ = {
-			isa = PBXGroup;
-			children = (
-				BEF399B26B78C84327C92D8E /* blobtrack.hpp */,
-				75BE57DB95B978E447C29264 /* compat.hpp */,
-				6CC39C97926595A7A84530FB /* legacy.hpp */,
-				F7878DEBC6C0A047BF6DAFC7 /* streams.hpp */,
-			);
-			name = legacy;
 			sourceTree = "<group>";
 		};
 		9683228C705CA3FF4F2EA945 /* ofxKinect */ = {
@@ -754,275 +338,20 @@
 			name = ofxKinect;
 			sourceTree = "<group>";
 		};
-		9C99831C330874C2B245AB48 /* highgui */ = {
+		ADAE47E81BADBC2A000EFEB2 /* ofxCv */ = {
 			isa = PBXGroup;
 			children = (
-				2515DD0366D520549C33E3E5 /* highgui.hpp */,
-				9386D6CE28A359E6D10BBEC1 /* highgui_c.h */,
-			);
-			name = highgui;
-			sourceTree = "<group>";
-		};
-		A5A3A2F98919E2243C73199C /* core */ = {
-			isa = PBXGroup;
-			children = (
-				2990F40BA40A2FCF67E852A1 /* core.hpp */,
-				50FC7E23CE127F7907F1A50E /* core_c.h */,
-				4446B4E60742B06D7168EA31 /* eigen.hpp */,
-				F12AAB2C59335FFD3A540365 /* internal.hpp */,
-				4A8E14966EADA303DC5DACA2 /* mat.hpp */,
-				6AF547E0497080737A7B0702 /* operations.hpp */,
-				8B3039211F5948C97628BD12 /* types_c.h */,
-				DEBF5258ACE42A28D14791F3 /* version.hpp */,
-				4BFFF471C4CE80D74E174044 /* wimage.hpp */,
-			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		AAA97F42C2FE4A31ECFD0585 /* opencv */ = {
-			isa = PBXGroup;
-			children = (
-				F9F05170CB9BDF47DA2B6E6A /* include */,
-			);
-			name = opencv;
-			path = ../../../../../../Dropbox/Projects/Archive/Kinect2OSC;
-			sourceTree = "<group>";
-		};
-		AD5DDB7919A8A17A00061D24 /* ofxCv */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB7A19A8A1BB00061D24 /* libs */,
-				AD5DDBA019A8A1BB00061D24 /* src */,
+				ADAE47E91BADBC38000EFEB2 /* libs */,
+				ADAE47EA1BADBC38000EFEB2 /* src */,
 			);
 			name = ofxCv;
-			sourceTree = "<group>";
-		};
-		AD5DDB7A19A8A1BB00061D24 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				AAA97F42C2FE4A31ECFD0585 /* opencv */,
-				AD5DDB7C19A8A1BB00061D24 /* CLD */,
-				AD5DDB8619A8A1BB00061D24 /* ofxCv */,
-			);
-			name = libs;
-			path = ../../../../Documents/Frameworks/openFrameworks/addons/ofxCv/libs;
-			sourceTree = "<group>";
-		};
-		AD5DDB7C19A8A1BB00061D24 /* CLD */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB7D19A8A1BB00061D24 /* include */,
-				AD5DDB8319A8A1BB00061D24 /* src */,
-			);
-			path = CLD;
-			sourceTree = "<group>";
-		};
-		AD5DDB7D19A8A1BB00061D24 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB7E19A8A1BB00061D24 /* CLD */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		AD5DDB7E19A8A1BB00061D24 /* CLD */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB7F19A8A1BB00061D24 /* ETF.h */,
-				AD5DDB8019A8A1BB00061D24 /* fdog.h */,
-				AD5DDB8119A8A1BB00061D24 /* imatrix.h */,
-				AD5DDB8219A8A1BB00061D24 /* myvec.h */,
-			);
-			path = CLD;
-			sourceTree = "<group>";
-		};
-		AD5DDB8319A8A1BB00061D24 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB8419A8A1BB00061D24 /* ETF.cpp */,
-				AD5DDB8519A8A1BB00061D24 /* fdog.cpp */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		AD5DDB8619A8A1BB00061D24 /* ofxCv */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB8719A8A1BB00061D24 /* include */,
-				AD5DDB9419A8A1BB00061D24 /* src */,
-			);
-			path = ofxCv;
-			sourceTree = "<group>";
-		};
-		AD5DDB8719A8A1BB00061D24 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB8819A8A1BB00061D24 /* ofxCv */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		AD5DDB8819A8A1BB00061D24 /* ofxCv */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB8919A8A1BB00061D24 /* Calibration.h */,
-				AD5DDB8A19A8A1BB00061D24 /* ContourFinder.h */,
-				AD5DDB8B19A8A1BB00061D24 /* Distance.h */,
-				AD5DDB8C19A8A1BB00061D24 /* Flow.h */,
-				AD5DDB8D19A8A1BB00061D24 /* Helpers.h */,
-				AD5DDB8E19A8A1BB00061D24 /* Kalman.h */,
-				AD5DDB8F19A8A1BB00061D24 /* ObjectFinder.h */,
-				AD5DDB9019A8A1BB00061D24 /* RunningBackground.h */,
-				AD5DDB9119A8A1BB00061D24 /* Tracker.h */,
-				AD5DDB9219A8A1BB00061D24 /* Utilities.h */,
-				AD5DDB9319A8A1BB00061D24 /* Wrappers.h */,
-			);
-			path = ofxCv;
-			sourceTree = "<group>";
-		};
-		AD5DDB9419A8A1BB00061D24 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDB9519A8A1BB00061D24 /* Calibration.cpp */,
-				AD5DDB9619A8A1BB00061D24 /* ContourFinder.cpp */,
-				AD5DDB9719A8A1BB00061D24 /* Distance.cpp */,
-				AD5DDB9819A8A1BB00061D24 /* Flow.cpp */,
-				AD5DDB9919A8A1BB00061D24 /* Helpers.cpp */,
-				AD5DDB9A19A8A1BB00061D24 /* Kalman.cpp */,
-				AD5DDB9B19A8A1BB00061D24 /* ObjectFinder.cpp */,
-				AD5DDB9C19A8A1BB00061D24 /* RunningBackground.cpp */,
-				AD5DDB9D19A8A1BB00061D24 /* Tracker.cpp */,
-				AD5DDB9E19A8A1BB00061D24 /* Utilities.cpp */,
-				AD5DDB9F19A8A1BB00061D24 /* Wrappers.cpp */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		AD5DDBA019A8A1BB00061D24 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AD5DDBA119A8A1BB00061D24 /* ofxCv.h */,
-			);
-			name = src;
-			path = ../../../../Documents/Frameworks/openFrameworks/addons/ofxCv/src;
-			sourceTree = "<group>";
-		};
-		AD7EB62119B722AD000579BF /* ofxUI */ = {
-			isa = PBXGroup;
-			children = (
-				AD7EB62219B722B9000579BF /* src */,
-			);
-			name = ofxUI;
-			sourceTree = "<group>";
-		};
-		AD7EB62219B722B9000579BF /* src */ = {
-			isa = PBXGroup;
-			children = (
-				AD7EB62319B722B9000579BF /* ofxUI.h */,
-				AD7EB62419B722B9000579BF /* ofxUI2DGraph.cpp */,
-				AD7EB62519B722B9000579BF /* ofxUI2DGraph.h */,
-				AD7EB62619B722B9000579BF /* ofxUI2DPad.cpp */,
-				AD7EB62719B722B9000579BF /* ofxUI2DPad.h */,
-				AD7EB62819B722B9000579BF /* ofxUIBaseDraws.cpp */,
-				AD7EB62919B722B9000579BF /* ofxUIBaseDraws.h */,
-				AD7EB62A19B722B9000579BF /* ofxUIBiLabelSlider.cpp */,
-				AD7EB62B19B722B9000579BF /* ofxUIBiLabelSlider.h */,
-				AD7EB62C19B722B9000579BF /* ofxUIButton.cpp */,
-				AD7EB62D19B722B9000579BF /* ofxUIButton.h */,
-				AD7EB62E19B722B9000579BF /* ofxUICanvas.cpp */,
-				AD7EB62F19B722B9000579BF /* ofxUICanvas.h */,
-				AD7EB63019B722B9000579BF /* ofxUICircleSlider.cpp */,
-				AD7EB63119B722B9000579BF /* ofxUICircleSlider.h */,
-				AD7EB63219B722B9000579BF /* ofxUIDefines.h */,
-				AD7EB63319B722B9000579BF /* ofxUIDragableLabelButton.cpp */,
-				AD7EB63419B722B9000579BF /* ofxUIDragableLabelButton.h */,
-				AD7EB63519B722B9000579BF /* ofxUIDropDownList.cpp */,
-				AD7EB63619B722B9000579BF /* ofxUIDropDownList.h */,
-				AD7EB63719B722B9000579BF /* ofxUIEventArgs.cpp */,
-				AD7EB63819B722B9000579BF /* ofxUIEventArgs.h */,
-				AD7EB63919B722B9000579BF /* ofxUIFPS.cpp */,
-				AD7EB63A19B722B9000579BF /* ofxUIFPS.h */,
-				AD7EB63B19B722B9000579BF /* ofxUIFPSSlider.cpp */,
-				AD7EB63C19B722B9000579BF /* ofxUIFPSSlider.h */,
-				AD7EB63D19B722B9000579BF /* ofxUIImage.cpp */,
-				AD7EB63E19B722B9000579BF /* ofxUIImage.h */,
-				AD7EB63F19B722B9000579BF /* ofxUIImageButton.cpp */,
-				AD7EB64019B722B9000579BF /* ofxUIImageButton.h */,
-				AD7EB64119B722B9000579BF /* ofxUIImageSampler.cpp */,
-				AD7EB64219B722B9000579BF /* ofxUIImageSampler.h */,
-				AD7EB64319B722B9000579BF /* ofxUIImageSlider.cpp */,
-				AD7EB64419B722B9000579BF /* ofxUIImageSlider.h */,
-				AD7EB64519B722B9000579BF /* ofxUIImageToggle.cpp */,
-				AD7EB64619B722B9000579BF /* ofxUIImageToggle.h */,
-				AD7EB64719B722B9000579BF /* ofxUILabel.cpp */,
-				AD7EB64819B722B9000579BF /* ofxUILabel.h */,
-				AD7EB64919B722B9000579BF /* ofxUILabelButton.cpp */,
-				AD7EB64A19B722B9000579BF /* ofxUILabelButton.h */,
-				AD7EB64B19B722B9000579BF /* ofxUILabelToggle.cpp */,
-				AD7EB64C19B722B9000579BF /* ofxUILabelToggle.h */,
-				AD7EB64D19B722B9000579BF /* ofxUIMinimalSlider.cpp */,
-				AD7EB64E19B722B9000579BF /* ofxUIMinimalSlider.h */,
-				AD7EB64F19B722B9000579BF /* ofxUIMovingGraph.cpp */,
-				AD7EB65019B722B9000579BF /* ofxUIMovingGraph.h */,
-				AD7EB65119B722B9000579BF /* ofxUIMultiImageButton.cpp */,
-				AD7EB65219B722B9000579BF /* ofxUIMultiImageButton.h */,
-				AD7EB65319B722B9000579BF /* ofxUIMultiImageToggle.cpp */,
-				AD7EB65419B722B9000579BF /* ofxUIMultiImageToggle.h */,
-				AD7EB65519B722B9000579BF /* ofxUINumberDialer.cpp */,
-				AD7EB65619B722B9000579BF /* ofxUINumberDialer.h */,
-				AD7EB65719B722B9000579BF /* ofxUIOFWrapper.h */,
-				AD7EB65819B722B9000579BF /* ofxUIRadio.cpp */,
-				AD7EB65919B722B9000579BF /* ofxUIRadio.h */,
-				AD7EB65A19B722B9000579BF /* ofxUIRangeSlider.cpp */,
-				AD7EB65B19B722B9000579BF /* ofxUIRangeSlider.h */,
-				AD7EB65C19B722B9000579BF /* ofxUIRectangle.cpp */,
-				AD7EB65D19B722B9000579BF /* ofxUIRectangle.h */,
-				AD7EB65E19B722B9000579BF /* ofxUIRotarySlider.cpp */,
-				AD7EB65F19B722B9000579BF /* ofxUIRotarySlider.h */,
-				AD7EB66019B722B9000579BF /* ofxUIScrollableCanvas.cpp */,
-				AD7EB66119B722B9000579BF /* ofxUIScrollableCanvas.h */,
-				AD7EB66219B722B9000579BF /* ofxUISlider.cpp */,
-				AD7EB66319B722B9000579BF /* ofxUISlider.h */,
-				AD7EB66419B722B9000579BF /* ofxUISortableList.cpp */,
-				AD7EB66519B722B9000579BF /* ofxUISortableList.h */,
-				AD7EB66619B722B9000579BF /* ofxUISpacer.cpp */,
-				AD7EB66719B722B9000579BF /* ofxUISpacer.h */,
-				AD7EB66819B722B9000579BF /* ofxUISpectrum.cpp */,
-				AD7EB66919B722B9000579BF /* ofxUISpectrum.h */,
-				AD7EB66A19B722B9000579BF /* ofxUISuperCanvas.cpp */,
-				AD7EB66B19B722B9000579BF /* ofxUISuperCanvas.h */,
-				AD7EB66C19B722B9000579BF /* ofxUITabBar.cpp */,
-				AD7EB66D19B722B9000579BF /* ofxUITabBar.h */,
-				AD7EB66E19B722B9000579BF /* ofxUITextArea.cpp */,
-				AD7EB66F19B722B9000579BF /* ofxUITextArea.h */,
-				AD7EB67019B722B9000579BF /* ofxUITextInput.cpp */,
-				AD7EB67119B722B9000579BF /* ofxUITextInput.h */,
-				AD7EB67219B722B9000579BF /* ofxUIToggle.cpp */,
-				AD7EB67319B722B9000579BF /* ofxUIToggle.h */,
-				AD7EB67419B722B9000579BF /* ofxUIToggleMatrix.cpp */,
-				AD7EB67519B722B9000579BF /* ofxUIToggleMatrix.h */,
-				AD7EB67619B722B9000579BF /* ofxUIUtils.h */,
-				AD7EB67719B722B9000579BF /* ofxUIValuePlotter.cpp */,
-				AD7EB67819B722B9000579BF /* ofxUIValuePlotter.h */,
-				AD7EB67919B722B9000579BF /* ofxUIWaveform.cpp */,
-				AD7EB67A19B722B9000579BF /* ofxUIWaveform.h */,
-				AD7EB67B19B722B9000579BF /* ofxUIWidget.cpp */,
-				AD7EB67C19B722B9000579BF /* ofxUIWidget.h */,
-				AD7EB67D19B722B9000579BF /* ofxUIWidgets.h */,
-				AD7EB67E19B722B9000579BF /* ofxUIWidgetWithLabel.cpp */,
-				AD7EB67F19B722B9000579BF /* ofxUIWidgetWithLabel.h */,
-				AD7EB68019B722B9000579BF /* ofxUIWrapper.h */,
-			);
-			name = src;
-			path = ../../../../Documents/Frameworks/openFrameworks/addons/ofxUI/src;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				AD7EB62119B722AD000579BF /* ofxUI */,
+				ADAE47E81BADBC2A000EFEB2 /* ofxCv */,
 				9683228C705CA3FF4F2EA945 /* ofxKinect */,
-				AD5DDB7919A8A17A00061D24 /* ofxCv */,
 				E6053AB7FEC63D5F83825B88 /* ofxOsc */,
 				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 			);
@@ -1053,6 +382,7 @@
 		BBAB23CA13894EDB00AA2426 /* 3rd party frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADE13F571B6E5B8D00D2D844 /* openFrameworks.a */,
 				BBAB23BE13894E4700AA2426 /* GLUT.framework */,
 			);
 			name = "3rd party frameworks";
@@ -1075,24 +405,6 @@
 				15973FECEFEC9810B5E5DF42 /* ofxOscSender.h */,
 			);
 			name = src;
-			sourceTree = "<group>";
-		};
-		C58CC92A5283B95AA31D50FB /* video */ = {
-			isa = PBXGroup;
-			children = (
-				5191D9C152EBDC510C6ABAF4 /* background_segm.hpp */,
-				BB9770A9D46276C70C17759E /* tracking.hpp */,
-				D5201033F78A1B41FA447E29 /* video.hpp */,
-			);
-			name = video;
-			sourceTree = "<group>";
-		};
-		D0CAFE48EE488EEED9149670 /* objdetect */ = {
-			isa = PBXGroup;
-			children = (
-				08F3BA3463BE9A4107F3E69A /* objdetect.hpp */,
-			);
-			name = objdetect;
 			sourceTree = "<group>";
 		};
 		D27B2221A225CA523C019676 /* src */ = {
@@ -1205,15 +517,6 @@
 			name = libs;
 			sourceTree = "<group>";
 		};
-		F9F05170CB9BDF47DA2B6E6A /* include */ = {
-			isa = PBXGroup;
-			children = (
-				737B033AA777B67BA4F8F4D2 /* opencv */,
-				0F07FE174552DEF007BF5AD5 /* opencv2 */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
 		FF8CDF57858E9B94E3237115 /* ip */ = {
 			isa = PBXGroup;
 			children = (
@@ -1306,7 +609,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -f /Users/Szymon/Documents/Frameworks/openFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\ncp -f \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n";
+			shellScript = "cp -f /Users/Szymon/Documents/Code/Frameworks/openFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/libfmodex.dylib\"; install_name_tool -change ./libfmodex.dylib @executable_path/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\nmkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\ncp -f \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1315,91 +618,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD62422719A8B2F80039E53B /* ETF.cpp in Sources */,
-				AD62422819A8B2F80039E53B /* fdog.cpp in Sources */,
-				AD7EB68C19B722B9000579BF /* ofxUIFPSSlider.cpp in Sources */,
-				AD7EB6AB19B722B9000579BF /* ofxUIWidget.cpp in Sources */,
-				AD7EB69A19B722B9000579BF /* ofxUIRadio.cpp in Sources */,
-				AD62421C19A8B2E80039E53B /* Calibration.cpp in Sources */,
-				AD62421D19A8B2E80039E53B /* ContourFinder.cpp in Sources */,
-				AD62421E19A8B2E80039E53B /* Distance.cpp in Sources */,
-				AD7EB69219B722B9000579BF /* ofxUILabel.cpp in Sources */,
-				AD7EB6A419B722B9000579BF /* ofxUITabBar.cpp in Sources */,
-				AD62421F19A8B2E80039E53B /* Flow.cpp in Sources */,
-				AD62422019A8B2E80039E53B /* Helpers.cpp in Sources */,
-				AD7EB69F19B722B9000579BF /* ofxUISlider.cpp in Sources */,
-				AD62422119A8B2E80039E53B /* Kalman.cpp in Sources */,
-				AD62422219A8B2E80039E53B /* ObjectFinder.cpp in Sources */,
-				AD62422319A8B2E80039E53B /* RunningBackground.cpp in Sources */,
-				AD62422419A8B2E80039E53B /* Tracker.cpp in Sources */,
-				AD7EB68619B722B9000579BF /* ofxUICanvas.cpp in Sources */,
-				AD7EB69019B722B9000579BF /* ofxUIImageSlider.cpp in Sources */,
-				AD62422519A8B2E80039E53B /* Utilities.cpp in Sources */,
-				AD7EB68119B722B9000579BF /* ofxUI2DGraph.cpp in Sources */,
-				AD62422619A8B2E80039E53B /* Wrappers.cpp in Sources */,
-				AD7EB68419B722B9000579BF /* ofxUIBiLabelSlider.cpp in Sources */,
-				AD7EB69919B722B9000579BF /* ofxUINumberDialer.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				AD7EB6A619B722B9000579BF /* ofxUITextInput.cpp in Sources */,
-				AD7EB69519B722B9000579BF /* ofxUIMinimalSlider.cpp in Sources */,
-				AD7EB6A219B722B9000579BF /* ofxUISpectrum.cpp in Sources */,
 				82CF8B66D444937AA15A93E8 /* ofxKinectExtras.cpp in Sources */,
 				FE21FDA5837A38BFD41A6CBA /* ofxKinect.cpp in Sources */,
 				3B6FEC8F88B794C50BA1C0C8 /* audio.c in Sources */,
 				EAB19CADC96BCF9BDC8FBBCF /* cameras.c in Sources */,
-				AD7EB68819B722B9000579BF /* ofxUIDragableLabelButton.cpp in Sources */,
 				4EC2A4F98CA941D7FCF4520C /* core.c in Sources */,
 				664F399EC74F688FE484CFC2 /* flags.c in Sources */,
 				5B576CA5FD2C7E542BB25B88 /* keep_alive.c in Sources */,
-				AD7EB6A519B722B9000579BF /* ofxUITextArea.cpp in Sources */,
 				2CEDF18CFB8E2AB19A6BB18D /* loader.c in Sources */,
 				9C778A883E7A492AC65592CB /* registration.c in Sources */,
-				AD7EB68D19B722B9000579BF /* ofxUIImage.cpp in Sources */,
-				AD7EB69319B722B9000579BF /* ofxUILabelButton.cpp in Sources */,
 				DFD6463296C0242CF82B0A5F /* tilt.c in Sources */,
-				AD7EB6A019B722B9000579BF /* ofxUISortableList.cpp in Sources */,
-				AD7EB69D19B722B9000579BF /* ofxUIRotarySlider.cpp in Sources */,
 				8C64D1B198E6A54202FE7A6F /* usb_libusb10.c in Sources */,
-				AD7EB69C19B722B9000579BF /* ofxUIRectangle.cpp in Sources */,
-				AD7EB68F19B722B9000579BF /* ofxUIImageSampler.cpp in Sources */,
-				AD7EB69E19B722B9000579BF /* ofxUIScrollableCanvas.cpp in Sources */,
-				AD7EB68B19B722B9000579BF /* ofxUIFPS.cpp in Sources */,
-				AD7EB6A719B722B9000579BF /* ofxUIToggle.cpp in Sources */,
-				AD7EB68519B722B9000579BF /* ofxUIButton.cpp in Sources */,
-				AD7EB6A119B722B9000579BF /* ofxUISpacer.cpp in Sources */,
-				AD7EB69419B722B9000579BF /* ofxUILabelToggle.cpp in Sources */,
-				AD7EB68319B722B9000579BF /* ofxUIBaseDraws.cpp in Sources */,
-				AD7EB68A19B722B9000579BF /* ofxUIEventArgs.cpp in Sources */,
-				AD7EB69119B722B9000579BF /* ofxUIImageToggle.cpp in Sources */,
-				AD7EB68719B722B9000579BF /* ofxUICircleSlider.cpp in Sources */,
-				AD7EB69619B722B9000579BF /* ofxUIMovingGraph.cpp in Sources */,
-				AD7EB6AA19B722B9000579BF /* ofxUIWaveform.cpp in Sources */,
-				AD7EB69B19B722B9000579BF /* ofxUIRangeSlider.cpp in Sources */,
 				7B7926CEBD13F8C156290F35 /* ofxOscBundle.cpp in Sources */,
 				59CD11A155C673E776ABD8C5 /* ofxOscMessage.cpp in Sources */,
-				AD7EB6A919B722B9000579BF /* ofxUIValuePlotter.cpp in Sources */,
 				CF49720B45C5C5998105894E /* ofxOscParameterSync.cpp in Sources */,
-				AD7EB69819B722B9000579BF /* ofxUIMultiImageToggle.cpp in Sources */,
 				71962261148798B776399D23 /* ofxOscReceiver.cpp in Sources */,
 				F1C35E59FC82DE2DC802E043 /* ofxOscSender.cpp in Sources */,
 				9DABD668DD98F13E444E0A02 /* IpEndpointName.cpp in Sources */,
-				AD7EB6A819B722B9000579BF /* ofxUIToggleMatrix.cpp in Sources */,
 				9A2C9D5E1620376C0229D7BB /* NetworkingUtils.cpp in Sources */,
 				B61B7585A34B8F30B02FB19B /* UdpSocket.cpp in Sources */,
-				AD7EB68919B722B9000579BF /* ofxUIDropDownList.cpp in Sources */,
-				AD7EB69719B722B9000579BF /* ofxUIMultiImageButton.cpp in Sources */,
-				AD7EB6A319B722B9000579BF /* ofxUISuperCanvas.cpp in Sources */,
 				068BDE610E9BA91561B0E10B /* OscOutboundPacketStream.cpp in Sources */,
 				420CA236723B88F018C68D73 /* OscPrintReceivedElements.cpp in Sources */,
 				CACAB43BC1C2BF411D7CC079 /* OscReceivedElements.cpp in Sources */,
 				D137DEE407C064B180986BA0 /* OscTypes.cpp in Sources */,
 				B0477394A49F8E131191BA77 /* ofxXmlSettings.cpp in Sources */,
-				AD7EB6AC19B722B9000579BF /* ofxUIWidgetWithLabel.cpp in Sources */,
 				4A4CA77E62986F48CD57C942 /* tinyxml.cpp in Sources */,
-				AD7EB68E19B722B9000579BF /* ofxUIImageButton.cpp in Sources */,
 				18F73A2C56413A5F62F09672 /* tinyxmlerror.cpp in Sources */,
-				AD7EB68219B722B9000579BF /* ofxUI2DPad.cpp in Sources */,
 				B241C11DD797F7D2C8161DC4 /* tinyxmlparser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1438,65 +684,65 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxGui/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxGui/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/platform,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src,
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-win32",
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/extra,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include/CLD,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxGui/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxGui/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/platform,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src,
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-win32",
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/extra,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include/CLD,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OF_PATH = /Users/Szymon/Documents/Frameworks/openFrameworks;
+				OF_PATH = /Users/Szymon/Documents/Code/Frameworks/openFrameworks;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -1504,8 +750,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_LIBS)",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -1535,65 +781,65 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxGui/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxGui/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/platform,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src,
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-win32",
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/src/extra,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOsc/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxXmlSettings/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include/CLD,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/src,
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxCv/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxGui/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxGui/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/platform,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libfreenect/src,
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-win32",
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/src/extra,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/calib3d,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/contrib,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/core,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/features2d,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/flann,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/gpu,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/highgui,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/imgproc,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/legacy,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ml,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/objdetect,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/ts,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/include/opencv2/video,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/posix,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/ip/win32,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/libs/oscpack/src/osc,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOsc/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxXmlSettings/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/include/CLD,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/CLD/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/include/ofxCv,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/libs/ofxCv/src,
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxCv/src,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				OF_PATH = /Users/Szymon/Documents/Frameworks/openFrameworks;
+				OF_PATH = /Users/Szymon/Documents/Code/Frameworks/openFrameworks;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -1601,8 +847,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(OF_CORE_LIBS)",
-					"/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
-					/Users/Szymon/Documents/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
+					"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks/addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
 				);
 				SDKROOT = macosx;
 			};
@@ -1617,7 +863,7 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Users/Szymon/Documents/Frameworks/openFrameworks/libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/libs/glut/lib/osx\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
@@ -1625,6 +871,11 @@
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks,
+					OSX/libs/openFrameworksCompiled/lib/osx,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Kinect2OSCDebug;
 				WRAPPER_EXTENSION = app;
@@ -1640,13 +891,18 @@
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Users/Szymon/Documents/Frameworks/openFrameworks/libs/glut/lib/osx\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"/Users/Szymon/Documents/Code/Frameworks/openFrameworks/libs/glut/lib/osx\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_MODEL_TUNING = NONE;
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Szymon/Documents/Code/Frameworks/openFrameworks,
+					OSX/libs/openFrameworksCompiled/lib/osx,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = Kinect2OSC;
 				WRAPPER_EXTENSION = app;

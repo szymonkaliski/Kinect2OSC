@@ -1,9 +1,9 @@
 #pragma once
 
-#include "ofMain.h"
+//#include "ofMain.h"
 #include "ofxKinect.h"
 #include "ofxCv.h"
-#include "ofxUI.h"
+#include "ofxGui.h"
 #include "ofxOsc.h"
 
 #define HOST "localhost"
@@ -17,7 +17,6 @@ public:
 	void exit();
 
 	void keyPressed(int key);
-	void guiEvent(ofxUIEventArgs &event);
 
 	ofxKinect kinect;
 
@@ -29,13 +28,14 @@ public:
 
 	int nearThreshold, farThreshold, timeThreshold, resetTimeThreshold, kinectAngle;
 	float polylineSimplfy;
-	bool flipX, flipY, flowEnabled;
+//	bool flipX, flipY, flowEnabled;
 	unsigned long long lastTime, lastResetTime;
 
 	int flowMaxFeatures, flowMaxLevel, flowMinDistance;
 	float flowQualityLevel;
 
-	ofxUITabBar *gui;
+  ofxPanel gui;
+  ofParameter<bool> flipX, flipY, flowEnabled;
 
 	ofxOscSender oscSender;
 };

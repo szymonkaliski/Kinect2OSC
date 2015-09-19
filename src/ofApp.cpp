@@ -51,35 +51,38 @@ void ofApp::setup() {
 	flowEnabled = false;
 
 	// tabbed gui
-	gui = new ofxUITabBar(10, 10, 400, 300);
+  gui.setup();
 
-	ofxUICanvas *guiMain = new ofxUICanvas();
-	guiMain->setName("main");
-	guiMain->addToggle("flip X", flipX);
-	guiMain->addToggle("flip Y", flipY);
-	guiMain->addSpacer();
-	guiMain->addSlider("near", 0, 255, nearThreshold);
-	guiMain->addSlider("far", 0, 255, farThreshold);
-	guiMain->addSlider("angle", -30, 30, kinectAngle);
-	guiMain->addSlider("simplify", 1.0, 20.0, polylineSimplfy);
-	guiMain->addSlider("threshold", 10.0, 1000.0, timeThreshold);
-	guiMain->autoSizeToFitWidgets();
-	ofAddListener(guiMain->newGUIEvent, this, &ofApp::guiEvent);
+  gui.add(flipX.set("flip x", false));
+  gui.add(flipY.set("flip y", false));
 
-	ofxUICanvas *guiFlow = new ofxUICanvas();
-	guiFlow->setName("flow");
-	guiFlow->addToggle("calculate flow", flowEnabled);
-	guiFlow->addSpacer();
-	guiFlow->addSlider("max features", 1, 500, flowMaxFeatures);
-	guiFlow->addSlider("max level", 1, 8, flowMaxLevel);
-	guiFlow->addSlider("min distance", 1, 16, flowMinDistance);
-	guiFlow->addSlider("quality level", 0.001, 0.1, flowQualityLevel);
-	guiMain->autoSizeToFitWidgets();
-	ofAddListener(guiFlow->newGUIEvent, this, &ofApp::guiEvent);
-
-	gui->addCanvas(guiMain);
-	gui->addCanvas(guiFlow);
-	gui->loadSettings("settings/", "ui-");
+//	ofxUICanvas *guiMain = new ofxUICanvas();
+//	guiMain->setName("main");
+//	guiMain->addToggle("flip X", flipX);
+//	guiMain->addToggle("flip Y", flipY);
+//	guiMain->addSpacer();
+//	guiMain->addSlider("near", 0, 255, nearThreshold);
+//	guiMain->addSlider("far", 0, 255, farThreshold);
+//	guiMain->addSlider("angle", -30, 30, kinectAngle);
+//	guiMain->addSlider("simplify", 1.0, 20.0, polylineSimplfy);
+//	guiMain->addSlider("threshold", 10.0, 1000.0, timeThreshold);
+//	guiMain->autoSizeToFitWidgets();
+//	ofAddListener(guiMain->newGUIEvent, this, &ofApp::guiEvent);
+//
+//	ofxUICanvas *guiFlow = new ofxUICanvas();
+//	guiFlow->setName("flow");
+//	guiFlow->addToggle("calculate flow", flowEnabled);
+//	guiFlow->addSpacer();
+//	guiFlow->addSlider("max features", 1, 500, flowMaxFeatures);
+//	guiFlow->addSlider("max level", 1, 8, flowMaxLevel);
+//	guiFlow->addSlider("min distance", 1, 16, flowMinDistance);
+//	guiFlow->addSlider("quality level", 0.001, 0.1, flowQualityLevel);
+//	guiMain->autoSizeToFitWidgets();
+//	ofAddListener(guiFlow->newGUIEvent, this, &ofApp::guiEvent);
+//
+//	gui->addCanvas(guiMain);
+//	gui->addCanvas(guiFlow);
+//	gui->loadSettings("settings/", "ui-");
 
 	// osc setup
 	oscSender.setup(HOST, PORT);
@@ -241,12 +244,12 @@ void ofApp::draw() {
 	}
 	ofPopMatrix();
 
-	gui->draw();
+//	gui->draw();
 }
 
 void ofApp::exit() {
-	gui->saveSettings("settings/", "ui-");
-	delete gui;
+//	gui->saveSettings("settings/", "ui-");
+//	delete gui;
 
 	kinect.setCameraTiltAngle(0);
 	kinect.close();
@@ -255,11 +258,11 @@ void ofApp::exit() {
 void ofApp::keyPressed(int key) {
 	switch (key) {
 		case 's':
-			gui->saveSettings("settings/", "ui-");
+//			gui->saveSettings("settings/", "ui-");
 			break;
 
 		case 'l':
-			gui->loadSettings("settings/", "ui-");
+//			gui->loadSettings("settings/", "ui-");
 			break;
 
 		default:
@@ -267,62 +270,62 @@ void ofApp::keyPressed(int key) {
 	}
 }
 
-void ofApp::guiEvent(ofxUIEventArgs &event) {
-	if (event.getName() == "near") {
-		nearThreshold = (int)event.getSlider()->getScaledValue();
-	}
-
-	if (event.getName() == "far") {
-		farThreshold = (int)event.getSlider()->getScaledValue();
-	}
-
-	if (event.getName() == "angle") {
-		kinectAngle = (int)event.getSlider()->getScaledValue();
-		kinect.setCameraTiltAngle(kinectAngle);
-	}
-
-	if (event.getName() == "simplify") {
-		polylineSimplfy = event.getSlider()->getScaledValue();
-	}
-
-	if (event.getName() == "threshold") {
-		timeThreshold = (int)event.getSlider()->getScaledValue();
-	}
-
-	if (event.getName() == "flip X") {
-		flipX	= event.getButton()->getValue();
-	}
-
-	if (event.getName() == "flip Y") {
-		flipY	= event.getButton()->getValue();
-	}
-
-	if (event.getName() == "calculate flow") {
-		flowEnabled = event.getButton()->getValue();
-		flowPyrLK.resetFlow();
-	}
-
-	if (event.getName() == "max features") {
-		flowMaxFeatures = (int)event.getSlider()->getScaledValue();
-		flowPyrLK.setMaxFeatures(flowMaxFeatures);
-		flowPyrLK.resetFlow();
-	}
-
-	if (event.getName() == "max level") {
-		flowMaxLevel = (int)event.getSlider()->getScaledValue();
-		flowPyrLK.setMaxLevel(flowMaxLevel);
-		flowPyrLK.resetFlow();
-	}
-
-	if (event.getName() == "min distance") {
-		flowMinDistance = (int)event.getSlider()->getScaledValue();
-		flowPyrLK.setMinDistance(flowMinDistance);
-		flowPyrLK.resetFlow();
-	}
-
-	if (event.getName() == "quality level") {
-		flowQualityLevel = event.getSlider()->getScaledValue();
-		flowPyrLK.setQualityLevel(flowQualityLevel);
-		flowPyrLK.resetFlow();
-	}
-}
+//void ofApp::guiEvent(ofxUIEventArgs &event) {
+//	if (event.getName() == "near") {
+//		nearThreshold = (int)event.getSlider()->getScaledValue();
+//	}
+//
+//	if (event.getName() == "far") {
+//		farThreshold = (int)event.getSlider()->getScaledValue();
+//	}
+//
+//	if (event.getName() == "angle") {
+//		kinectAngle = (int)event.getSlider()->getScaledValue();
+//		kinect.setCameraTiltAngle(kinectAngle);
+//	}
+//
+//	if (event.getName() == "simplify") {
+//		polylineSimplfy = event.getSlider()->getScaledValue();
+//	}
+//
+//	if (event.getName() == "threshold") {
+//		timeThreshold = (int)event.getSlider()->getScaledValue();
+//	}
+//
+//	if (event.getName() == "flip X") {
+//		flipX	= event.getButton()->getValue();
+//	}
+//
+//	if (event.getName() == "flip Y") {
+//		flipY	= event.getButton()->getValue();
+//	}
+//
+//	if (event.getName() == "calculate flow") {
+//		flowEnabled = event.getButton()->getValue();
+//		flowPyrLK.resetFlow();
+//	}
+//
+//	if (event.getName() == "max features") {
+//		flowMaxFeatures = (int)event.getSlider()->getScaledValue();
+//		flowPyrLK.setMaxFeatures(flowMaxFeatures);
+//		flowPyrLK.resetFlow();
+//	}
+//
+//	if (event.getName() == "max level") {
+//		flowMaxLevel = (int)event.getSlider()->getScaledValue();
+//		flowPyrLK.setMaxLevel(flowMaxLevel);
+//		flowPyrLK.resetFlow();
+//	}
+//
+//	if (event.getName() == "min distance") {
+//		flowMinDistance = (int)event.getSlider()->getScaledValue();
+//		flowPyrLK.setMinDistance(flowMinDistance);
+//		flowPyrLK.resetFlow();
+//	}
+//
+//	if (event.getName() == "quality level") {
+//		flowQualityLevel = event.getSlider()->getScaledValue();
+//		flowPyrLK.setQualityLevel(flowQualityLevel);
+//		flowPyrLK.resetFlow();
+//	}
+//}
