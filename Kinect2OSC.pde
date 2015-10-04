@@ -18,6 +18,7 @@ NetAddress oscAddress;
 int flowRegionSize = 10;
 float flowThreshold = 0.005;
 float flowPyramidScale = 0.5;
+float flowMultiplier = 50.0;
 int flowNLevels = 4;
 int flowWinSize = 8;
 int flowNIterations = 2;
@@ -41,7 +42,7 @@ void setup() {
   flow = new Flow(this);
   oscP5 = new OscP5(this, 3000);
 
-  oscAddress = new NetAddress("127.0.0.1", 3000);
+  oscAddress = new NetAddress("127.0.0.1", 3333);
 
   cp5.addToggle("flipX")
     .setPosition(10, 10)
@@ -74,42 +75,47 @@ void setup() {
     .setSize(200, 10)
     .setRange(0.001, 0.01);
 
-  cp5.addSlider("flowPyramidScale")
+  cp5.addSlider("flowMultiplier")
     .setPosition(10, 130)
+    .setSize(200, 10)
+    .setRange(1.0, 100.0);
+
+  cp5.addSlider("flowPyramidScale")
+    .setPosition(10, 150)
     .setSize(200, 10)
     .setRange(0.0, 1.0);
 
   cp5.addSlider("flowNLevels")
-    .setPosition(10, 150)
+    .setPosition(10, 170)
     .setSize(200, 10)
     .setRange(0, 10);
 
   cp5.addSlider("flowWinSize")
-    .setPosition(10, 170)
+    .setPosition(10, 190)
     .setSize(200, 10)
     .setRange(1, 20);
 
   cp5.addSlider("flowNIterations")
-    .setPosition(10, 190)
+    .setPosition(10, 210)
     .setSize(200, 10)
     .setRange(1, 10);
 
   cp5.addSlider("flowPolyN")
-    .setPosition(10, 210)
+    .setPosition(10, 230)
     .setSize(200, 10)
     .setRange(1, 20);
 
   cp5.addSlider("flowPolySigma")
-    .setPosition(10, 230)
+    .setPosition(10, 250)
     .setSize(200, 10)
     .setRange(1.0, 4.0);
 
   cp5.addButton("saveSettings")
-    .setPosition(10, 250)
+    .setPosition(10, 270)
     .setSize(20, 20);
 
   cp5.addButton("loadSettings")
-    .setPosition(40, 250)
+    .setPosition(40, 270)
     .setSize(20, 20);
 
   kinect.startDepth();
@@ -143,6 +149,11 @@ void draw() {
   stroke(255, 0, 0);
   strokeWeight(3);
 
+  // required from previous version - count of blobs, not yet implemented
+  OscMessage oscCountMessage = new OscMessage("/count");
+  oscCountMessage.add(1);
+  oscP5.send(oscCountMessage, oscAddress);
+
   OscMessage oscFlowMessage = new OscMessage("/flow");
 
   for (int i = 0; i < width / flowRegionSize; ++i) {
@@ -153,8 +164,8 @@ void draw() {
       PVector flow = opencv.getAverageFlowInRegion(x, y, flowRegionSize, flowRegionSize);
 
       if (abs(flow.x) > flowThreshold || abs(flow.y) > flowThreshold) {
-        float flowPointX = x + flowRegionSize / 2 + flow.x * flowRegionSize;
-        float flowPointY = y + flowRegionSize / 2 + flow.y * flowRegionSize;
+        float flowPointX = x + flowRegionSize / 2 + flow.x * flowRegionSize * flowMultiplier;
+        float flowPointY = y + flowRegionSize / 2 + flow.y * flowRegionSize * flowMultiplier;
 
         line(
           x + flowRegionSize / 2,
